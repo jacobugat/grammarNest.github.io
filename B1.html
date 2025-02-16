@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GrammarNest</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">GrammarNest</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="A1.html">A1</a></li>
+                    <li class="nav-item"><a class="nav-link" href="A2.html">A2</a></li>
+                    <li class="nav-item"><a class="nav-link" href="B1.html">B1</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">B2</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">C1</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-light text-center py-5">
+        <h1>B1</h1>
+        <p>Nivel funcional para viajar y trabajar en entornos básicos en inglés.</p>
+    </header>
+
+    <!-- Relative pronouns -->
+    <div class="container mt-3">
+        <!-- Relative pronouns -->
+        <button class="btn btn-success w-100" type="button" data-bs-toggle="collapse" data-bs-target="#contenido1"
+            aria-expanded="false" aria-controls="contenido1">
+            1. Relative pronouns
+        </button>
+
+        <div class="collapse bg-light border p-4 mt-1" id="contenido1">
+            <h3>GRAMMAR FOCUS</h3>
+            <h3>Relative pronouns</h3>
+            <br>
+            <h5>As the subject of a clause</h5>
+            <p>I like people <strong>who/that</strong> aren't too serious.</p>
+            <p>I like people <strong>who/that</strong> have a good sense of humor.</p>
+            <br>
+            <h5>As the object of a clause</h5>
+            <p>I want someone (who/that) I can have fun with.</p>
+            <p>I'd like someone (who/that) I can talk to easily.</p>
+            <br>
+            <h3>GRAMMAR PLUS</h3>
+            <h4>Relative pronouns</h4>
+            <br>
+            <p>A relative pronoun - who or that - is necessary when the pronoun is the subject of a clause:</p>
+            <p>I'd love to meet someone who/that is considerate.</p>
+            <p>(NOT: I'd love to meet someone is considerate.)</p>
+            <br>
+            <p>When the pronoun is the object of the clause, who or that can be left out:</p>
+            <p>I'd like a roommate <strong>who/that</strong> I have a lot in common with.</p>
+            <p>OR I'd like a roommate I have a lot in common with.</p>
+            <br>
+            <!-- Icono de copiar -->
+            <button class="btn btn-light border" onclick="copyText_1('copy-text_1-1')">
+                <i class="fas fa-copy"></i> Conseguir explicación con la IA, copia y pega
+            </button>
+            <br><br>
+            <!-- Texto que se va a copiar -->
+            <textarea id="copy-text_1-1" style="position: absolute; top: -9999px;">
+No entiendo nada me explicas este contenido?
+GRAMMAR FOCUS
+Relative pronouns
+As the subject of a clause
+I like people who/that aren't too serious.
+I like people who/that have a good sense of humor.
+As the object of a clause
+I want someone (who/that) I can have fun with.
+I'd like someone (who/that) I can talk to easily.
+
+GRAMMAR PLUS
+Relative pronouns
+A relative pronoun - who or that - is necessary when the pronoun is the subject of a clause: 
+I'd love to meet someone who/that is considerate. 
+(NOT: I'd love to meet someone is considerate.)
+When the pronoun is the object of the clause, who or that can be left out: 
+I'd like a roommate who/that I have a lot in common with. 
+OR I'd like a roommate I have a lot in common with.
+        </textarea>
+            <!-- Icono de copiar -->
+            <button class="btn btn-light border" onclick="copyText('copy-text-1')">
+                <i class="fas fa-copy"></i> Practica con la IA, copia y pega
+            </button>
+            <br><br>
+            <button class="btn btn-light border" type="button" data-bs-toggle="collapse" data-bs-target="#contenido1"
+                aria-expanded="false" aria-controls="contenido1">
+                <i class="fa-solid fa-chevron-up"></i>
+            </button>
+            <br>
+            <!-- Texto que se va a copiar -->
+            <textarea id="copy-text-1" style="position: absolute; top: -9999px;">
+Prompt for sentences
+Vamos a practicar "Relative pronouns".
+"
+GRAMMAR FOCUS
+Relative pronouns
+As the subject of a clause
+I like people who/that aren't too serious.
+I like people who/that have a good sense of humor.
+As the object of a clause
+I want someone (who/that) I can have fun with.
+I'd like someone (who/that) I can talk to easily.
+
+GRAMMAR PLUS
+Relative pronouns
+A relative pronoun - who or that - is necessary when the pronoun is the subject of a clause: 
+I'd love to meet someone who/that is considerate. 
+(NOT: I'd love to meet someone is considerate.)
+When the pronoun is the object of the clause, who or that can be left out: 
+I'd like a roommate who/that I have a lot in common with. 
+OR I'd like a roommate I have a lot in common with.
+"
+Haz 4 preguntas con sustantivos diferentes para yo responder, una por una.
+Después de cada una, por favor corrige y dame sugerencias para mejorar. 
+También recomiéndame verbos frasales, por los verbos que he usado.
+        </textarea>
+        </div>
+    </div>
+
+
+    <footer class="bg-dark text-white mt-4 text-center py-3">
+        <p>&copy; 2025 GrammarNest</p>
+        <p>Autor: Jhon Sandoval</p>
+    </footer>
+
+    <!-- Toast de Bootstrap para el mensaje de éxito -->
+    <div class="toast-container position-fixed top-50 start-50 translate-middle-x translate-middle-y"
+        id="successMessage">
+        <div class="toast bg-success text-white" id="toastMessage" role="alert" aria-live="assertive"
+            aria-atomic="true">
+            <div class="toast-body">
+                ¡Texto copiado con éxito!
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        function copyText(textAreaId) {
+            var copyText = document.getElementById(textAreaId);
+            copyText.select();
+            document.execCommand("copy");
+
+            // Mostrar el toast de éxito
+            var toast = new bootstrap.Toast(document.getElementById('toastMessage'));
+            toast.show();
+        }
+    </script>
+
+    <script>
+        function copyText_1(textAreaId) {
+            var copyText = document.getElementById(textAreaId);
+            copyText.select();
+            document.execCommand("copy");
+
+            // Mostrar el toast de éxito
+            var toast = new bootstrap.Toast(document.getElementById('toastMessage'));
+            toast.show();
+        }
+    </script>
+
+</body>
+
+</html>
