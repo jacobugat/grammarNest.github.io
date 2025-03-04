@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GrammarNest</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">GrammarNest</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="A1.html">A1</a></li>
+                    <li class="nav-item"><a class="nav-link" href="A2.html">A2</a></li>
+                    <li class="nav-item"><a class="nav-link" href="B1.html">B1</a></li>
+                    <li class="nav-item"><a class="nav-link" href="B2.html">B2</a></li>
+                    <li class="nav-item"><a class="nav-link" href="C1.html">C1</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-light text-center py-5">
+        <h1>C1</h1>
+        <p>Dominio avanzado del idioma, con fluidez, precisión y comprensión de textos complejos.</p>
+    </header>
+
+    <!-- 01 Phrasal verbs -->
+    <div class="container mt-2">
+        <!-- Phrasal verbs -->
+        <button class="btn btn-info w-100" type="button" data-bs-toggle="collapse" data-bs-target="#contenido01"
+            aria-expanded="false" aria-controls="contenido01">
+            1. Phrasal verbs
+        </button>
+
+        <div class="collapse bg-light border p-4 mt-1" id="contenido01">
+            
+            <!-- Icono de copiar -->
+            <button class="btn btn-light border" onclick="copyText_1('copy-text_01-1')">
+                <i class="fas fa-copy"></i> Conseguir explicación con la IA, copia y pega
+            </button>
+            <br><br>
+            <!-- Texto que se va a copiar -->
+            <textarea id="copy-text_01-1" style="position: absolute; top: -9999px;">
+No entiendo nada me explicas este contenido?
+
+        </textarea>
+            <!-- Icono de copiar -->
+            <button class="btn btn-light border" onclick="copyText('copy-text-01')">
+                <i class="fas fa-copy"></i> Practica con la IA, copia y pega
+            </button>
+            <br><br>
+            <button class="btn btn-light border" type="button" data-bs-toggle="collapse" data-bs-target="#contenido01"
+                aria-expanded="false" aria-controls="contenido01">
+                <i class="fa-solid fa-chevron-up"></i>
+            </button>
+            <br>
+            <!-- Texto que se va a copiar -->
+            <textarea id="copy-text-01" style="position: absolute; top: -9999px;">
+Prompt for sentences
+Vamos a practicar "".
+"
+
+"
+Las retroalimentaciones y los comentarios en español por favor. 
+Haz 4 preguntas una por una, en ingles con sustantivos diferentes (wh-questions o how), para yo responder practicando Simple and complex indirect questions.
+Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar y recomienda un phrasal verb para reemplazar alguno de los verbos que usé.
+        </textarea>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white mt-4 text-center py-3">
+        <p>&copy; 2025 GrammarNest</p>
+        <p>Autor: Jhon Sandoval</p>
+    </footer>
+
+    <!-- Toast de Bootstrap para el mensaje de éxito -->
+    <div class="toast-container position-fixed top-50 start-50 translate-middle-x translate-middle-y"
+        id="successMessage">
+        <div class="toast bg-info" id="toastMessage" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-body">
+                ¡Texto copiado con éxito!
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        function copyText(textAreaId) {
+            var copyText = document.getElementById(textAreaId);
+            copyText.select();
+            document.execCommand("copy");
+
+            // Mostrar el toast de éxito
+            var toast = new bootstrap.Toast(document.getElementById('toastMessage'));
+            toast.show();
+        }
+    </script>
+
+    <script>
+        function copyText_1(textAreaId) {
+            var copyText = document.getElementById(textAreaId);
+            copyText.select();
+            document.execCommand("copy");
+
+            // Mostrar el toast de éxito
+            var toast = new bootstrap.Toast(document.getElementById('toastMessage'));
+            toast.show();
+        }
+    </script>
+
+</body>
+
+</html>
