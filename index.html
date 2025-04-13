@@ -7,6 +7,36 @@
     <title>IAidiomas</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+        }
+    
+        .container {
+          max-width: 100%;
+          padding: 15px;
+        }
+    
+        h2 {
+          font-size: 1.2rem;
+          text-align: center;
+          margin-bottom: 20px;
+        }
+    
+        @media (min-width: 768px) {
+          h2 {
+            font-size: 1.8rem;
+          }
+        }
+    
+        #grammarChart {
+          max-width: 100%;
+          width: 100%;
+          height: 300px !important;
+        }
+      </style>
 </head>
 
 <body>
@@ -25,6 +55,8 @@
                     <li class="nav-item"><a class="nav-link" href="C1.html">C1</a></li>
                     <li class="nav-item"><a class="nav-link" href="portugues.html">Portugués</a></li>
                     <li class="nav-item"><a class="nav-link" href="japones.html">Japonés</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aleman.html">Alemán</a></li>
+                    <li class="nav-item"><a class="nav-link" href="mandarin.html">Mandarín</a></li>
                 </ul>
             </div>
         </div>
@@ -100,14 +132,17 @@
 
         <div class="card shadow-lg p-4 border-0 rounded-4 mb-5">
             <h2 class="mb-3">¿Por que debo familiarizarme con la inteligencia artifical?</h2>
-            <p>La IA está transformando rápidamente el mundo laboral y quienes aprendan a utilizarla tendrán una ventaja competitiva. Aquí te explico por qué:</p>
+            <p>La IA está transformando rápidamente el mundo laboral y quienes aprendan a utilizarla tendrán una ventaja
+                competitiva. Aquí te explico por qué:</p>
             <br>
             <h5>1. La IA automatiza tareas repetitivas</h5>
-            <p>Muchos trabajos administrativos, de servicio al cliente y manufactura están siendo automatizados. Sin embargo,
+            <p>Muchos trabajos administrativos, de servicio al cliente y manufactura están siendo automatizados. Sin
+                embargo,
                 las personas que sepan manejar IA podrán enfocarse en tareas más estratégicas y creativas.</p>
             <br>
             <h5>2. Aumenta la productividad y eficiencia</h5>
-            <p>Los profesionales que integren herramientas de IA en su trabajo podrán hacer más en menos tiempo, optimizando
+            <p>Los profesionales que integren herramientas de IA en su trabajo podrán hacer más en menos tiempo,
+                optimizando
                 procesos y mejorando la toma de decisiones.</p>
             <br>
             <h5>3. Nuevas oportunidades laborales</h5>
@@ -118,47 +153,73 @@
             <p>- Especialistas en ciberseguridad con IA</p>
             <br>
             <h5>4. Mejora la creatividad y la innovación</h5>
-            <p>La IA ayuda a generar ideas, mejorar diseños y optimizar estrategias, lo que la convierte en una herramienta
+            <p>La IA ayuda a generar ideas, mejorar diseños y optimizar estrategias, lo que la convierte en una
+                herramienta
                 poderosa para emprendedores, diseñadores, escritores y muchos más.</p>
             <br>
             <h5>5. Es una habilidad clave para el futuro</h5>
-            <p>Las empresas buscan personas que sepan usar IA para mejorar su negocio. No se trata solo de programar, sino de
+            <p>Las empresas buscan personas que sepan usar IA para mejorar su negocio. No se trata solo de programar,
+                sino de
                 entender cómo aprovecharla en cualquier industria.</p>
             <br>
-            <p>Aprender a manejar la inteligencia artificial no es opcional, sino esencial para destacar en el mercado laboral.
+            <p>Aprender a manejar la inteligencia artificial no es opcional, sino esencial para destacar en el mercado
+                laboral.
                 Los que dominen la IA tendrán más oportunidades y mejores empleos en el futuro.</p>
         </div>
     </div>
 
-    <div class="container mt-5">
-        <h2 class="text-center">Comparación de Complejidad Gramatical por Idioma</h2>
+    <div class="container"> 
+        <h2>Comparación de Complejidad Gramatical por Idioma</h2>
         <canvas id="grammarChart"></canvas>
-    </div>
-
-    <script>
+      </div>
+    
+      <script>
         const ctx = document.getElementById('grammarChart').getContext('2d');
         new Chart(ctx, {
-            type: 'bar',
-            data: {
-                labels: ["Inglés", "Japonés", "Portugués", "Chino", "Alemán"],
-                datasets: [
-                    { label: "Morfología", data: [3, 8, 6, 2, 9], backgroundColor: "#FFA500" },
-                    { label: "Sintaxis", data: [4, 7, 5, 3, 8], backgroundColor: "#FF7F00" },
-                    { label: "Tiempos Verbales", data: [6, 5, 7, 2, 8], backgroundColor: "#FF3366" },
-                    { label: "Casos Gramaticales", data: [1, 6, 3, 2, 10], backgroundColor: "#FF66CC" }
-                ]
-            },
-            options: {
-                responsive: true,
-                plugins: {
-                    legend: { position: 'top' }
-                },
-                scales: {
-                    y: { beginAtZero: true, max: 10 }
+          type: 'bar',
+          data: {
+            labels: ["Inglés", "Japonés", "Portugués", "Chino", "Alemán"],
+            datasets: [
+              { label: "Morfología", data: [3, 8, 6, 2, 9], backgroundColor: "#FFA500" },
+              { label: "Sintaxis", data: [4, 7, 5, 3, 8], backgroundColor: "#FF7F00" },
+              { label: "Tiempos Verbales", data: [6, 5, 7, 2, 8], backgroundColor: "#FF3366" },
+              { label: "Casos Gramaticales", data: [1, 6, 3, 2, 10], backgroundColor: "#FF66CC" }
+            ]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: {
+                position: 'top',
+                labels: {
+                  font: {
+                    size: 10
+                  }
                 }
+              }
+            },
+            scales: {
+              x: {
+                ticks: {
+                  font: {
+                    size: 10
+                  }
+                }
+              },
+              y: {
+                beginAtZero: true,
+                max: 10,
+                ticks: {
+                  font: {
+                    size: 10
+                  }
+                }
+              }
             }
+          }
         });
-    </script>
+      </script>
     <br>
     <br>
 
