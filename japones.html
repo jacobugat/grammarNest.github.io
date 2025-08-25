@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IAidiomas</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
@@ -48,11 +48,10 @@
             aria-expanded="false" aria-controls="contenido1">
             N5: Básico
         </button>
-
         <div class="collapse bg-light border p-4 mt-1" id="contenido1">
-            <h3>Básico (frases simples, hiragana, katakana y kanji básicos).</h3>
+            <h3>Básico (particulas, formas verbales basicas).</h3>
             <br>
-            <h5>1. frases simples, hiragana, katakana y kanji básicos</h5>
+            <h5>1. Introduccion al Japonés</h5>
             <!-- Icono de copiar -->
             <button class="btn btn-light border" onclick="copyText('copy-text-1')">
                 <i class="fas fa-copy"></i> Explicacion y practica
@@ -61,14 +60,25 @@
             <!-- Texto que se va a copiar -->
             <textarea id="copy-text-1" style="position: absolute; top: -9999px;">
 Las retroalimentaciones y los comentarios en español.
-Explica "frases simples, hiragana, katakana y kanji básicos"
+Explica "Explica una breve introduccion del idioma japones luego saludos y despedidas, hiragana, katakana y kanjis básicos, tambien explica el orden de las oraciones"
 Luego pregúntame si tengo alguna duda antes de pasar a la practica y espera a que yo te responda si o no.
 Realiza 4 oraciones para yo traducirlas al japones y practicar este tipo de oraciones, una por una, sobre lo que has enseñado.
 Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
 Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
             </textarea>
             <br>
-            <h5>2. Partículas (助詞 - Joshi)</h5>
+            <h5>2. Partículas</h5>
+            <p><b>は</b>, Tema de la oración</p>
+            <p><b>が</b>, Sujeto nuevo o énfasis</p>
+            <p><b>を</b>, Objeto directo</p>
+            <p><b>に</b>, Destino, tiempo, objetivo</p>
+            <p><b>へ</b>, Dirección (más abstracta)</p>
+            <p><b>で</b>, Lugar de acción / medio</p>
+            <p><b>の</b>, Posesión o relación</p>
+            <p><b>と</b>, Compañía o y</p>
+            <p><b>も</b>, También o ni</p>
+            <p><b>から</b>, Punto de inicio</p>
+            <p><b>まで</b>, Punto final</p>
             <!-- Icono de copiar -->
             <button class="btn btn-light border" onclick="copyText('copy-text-2')">
                 <i class="fas fa-copy"></i> Explicacion y practica
@@ -94,22 +104,32 @@ Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si deb
             </textarea>
             <br><br>
             <h5>3. Verbos y conjugaciones</h5>
-            <h5>Forma ます (masu)</h5>
+            <br>
+            <h5>Verbos del grupo 1, 2 y 3</h5>
+            <p>Grupo 1, terminan en <b>う, く, す, つ, る, む, ぶ, ぬ, ぐ</b>.</p>
+            <p>Grupo 2, terminan en <b>いる, える</b>.</p>
+            <p>Grupo 3, solo hay dos, <b>する, 来る</b>.</p>
             <!-- Icono de copiar -->
             <button class="btn btn-light border" onclick="copyText('copy-text-3')">
                 <i class="fas fa-copy"></i> Explicacion y practica
             </button>
             <br>
+            <br>
             <!-- Texto que se va a copiar -->
             <textarea id="copy-text-3" style="position: absolute; top: -9999px;">
 Las retroalimentaciones y los comentarios en español.
-Explica "Forma ます (masu)"
+Explica "Verbos del grupo 1, 2 y 3 del japonés"
 Luego pregúntame si tengo alguna duda antes de pasar a la practica y espera a que yo te responda si o no.
 Realiza 4 oraciones para yo traducirlas al japones y practicar ese tipo de oraciones, una por una, para yo responder.
 Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
 Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
                         </textarea>
-            <h5>Forma ない (nai)</h5>
+            <br>
+            <h5>Forma ます (masu)</h5>
+            <p>Version formal y cortés, 食べる → 食べ<b>ます</b>, como.</p>
+            <p>Grupo 1, cambia la última vocal por <b>い</b> y añade <b>ます</b>, 書く → 書き<b>ます</b>.</p>
+            <p>Grupo 2, elimina <b>る</b> y añade <b>ます</b>, 食べる → 食べ<b>ます</b>.</p>
+            <p>Grupo 3, する,<b>します</b>. 来る,来<b>ます</b>.</p>
             <!-- Icono de copiar -->
             <button class="btn btn-light border" onclick="copyText('copy-text-4')">
                 <i class="fas fa-copy"></i> Explicacion y practica
@@ -118,14 +138,19 @@ Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si deb
             <!-- Texto que se va a copiar -->
             <textarea id="copy-text-4" style="position: absolute; top: -9999px;">
 Las retroalimentaciones y los comentarios en español.
-Explica "Forma ない (nai)"
+Explica "Forma ます (masu)"
 Luego pregúntame si tengo alguna duda antes de pasar a la practica y espera a que yo te responda si o no.
 Realiza 4 oraciones para yo traducirlas al japones y practicar ese tipo de oraciones, una por una, para yo responder.
 Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
 Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
                         </textarea>
             <br>
-            <h5>Forma た (ta)</h5>
+            <br>
+            <h5>Forma ない (nai)</h5>
+            <p>Negación en presente, 食べる → 食べ<b>ない</b>, no como.</p>
+            <p>Grupo 1, se cambia la última vocal por <b>あ</b> y se añade <b>ない</b>, 書く → 書か<b>ない</b>.</p>
+            <p>Grupo 2, Se elimina <b>る</b> y se añade <b>ない</b>, 食べる → 食べ<b>ない</b>.</p>
+            <p>Grupo 3, する, <b>しない</b>. くる, <b>こない</b>.</p>
             <!-- Icono de copiar -->
             <button class="btn btn-light border" onclick="copyText('copy-text-5')">
                 <i class="fas fa-copy"></i> Explicacion y practica
@@ -134,14 +159,26 @@ Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si deb
             <!-- Texto que se va a copiar -->
             <textarea id="copy-text-5" style="position: absolute; top: -9999px;">
 Las retroalimentaciones y los comentarios en español.
-Explica "Forma た (ta)"
+Explica "Forma ない (nai)"
 Luego pregúntame si tengo alguna duda antes de pasar a la practica y espera a que yo te responda si o no.
 Realiza 4 oraciones para yo traducirlas al japones y practicar ese tipo de oraciones, una por una, para yo responder.
 Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
 Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
                         </textarea>
             <br>
-            <h5>Forma て (te)</h5>
+            <br>
+            <h5>Forma た (ta)</h5>
+            <p>Pasado informal, 食べる → 食べ<b>た</b>, comi.</p>
+            <p>Grupo 1</p>
+            <p>Verbos que terminan en <b>う,つ,る</b> se cambian a <b>った</b>, 会う → 会<b>った</b>.</p>
+            <p>Verbos que terminan en <b>む, ぶ, ぬ</b>, se cambian a <b>んだ</b>, 読む → 読<b>んだ</b>.</p>
+            <p>Verbos que terminan en <b>く</b>, se cambian a <b>いた</b>, 書く → 書<b>いた</b>.</p>
+            <p>Verbos que terminan en <b>ぐ</b>, se cambian a <b>いだ</b>, 泳ぐ → 泳<b>いだ</b>.</p>
+            <p>Verbos que terminan en <b>す</b>, se cambia a <b>した</b>, 話す → 話<b>した</b>.</p>
+            <p>El verbo <b>行く</b>, no sigue una regla, 行く → 行<b>った</b>.</p>
+            <br>
+            <p>Grupo 2, se elimina <b>る</b> y se añade <b>た</b>, 食べる → 食べ<b>た</b>.</p>
+            <p>Grupo 3, する, <b>した</b>. くる, <b>きた</b>.</p>
             <!-- Icono de copiar -->
             <button class="btn btn-light border" onclick="copyText('copy-text-6')">
                 <i class="fas fa-copy"></i> Explicacion y practica
@@ -150,14 +187,25 @@ Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si deb
             <!-- Texto que se va a copiar -->
             <textarea id="copy-text-6" style="position: absolute; top: -9999px;">
 Las retroalimentaciones y los comentarios en español.
-Explica "Forma て (te)"
+Explica "Forma た (ta)"
 Luego pregúntame si tengo alguna duda antes de pasar a la practica y espera a que yo te responda si o no.
 Realiza 4 oraciones para yo traducirlas al japones y practicar ese tipo de oraciones, una por una, para yo responder.
 Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
 Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
                         </textarea>
             <br>
-            <h5>Forma たい (tai)</h5>
+            <br>
+            <h5>Forma て (te)</h5>
+            <p>Une acciones en secuencia, 飲ん<b>で</b>、食べる, bebo y luego como.</p>
+            <p>Grupo 1</p> 
+            <p>Verbos que terminan en <b>う, つ, る</b>, se cambian a <b>って</b>, 会う → 会<b>って</b>.</p>
+            <p>Verbos que terminan en <b>ぶ, む, ぬ</b>, se cambian a <b>んで</b>, 読む → 読<b>んで</b>.</p>
+            <p>Verbos que terminan en <b>く</b>, se cambian a <b>いて</b>, 書く → 書<b>いて</b>.</p>
+            <p>Verbos que terminan en <b>ぐ</b>, se cambian a <b>いで</b>, 泳ぐ → 泳<b>いで</b>.</p>
+            <p>Verbos que terminan en <b>す</b>, se cambia a <b>して</b>, 話す → 話<b>して</b>.</p>
+            <br>
+            <p>Grupo 2, se elimina <b>る</b> y se añade <b>て</b>, 食べる → 食べ<b>て</b>.</p>
+            <p>Grupo 3, する, <b>して</b>. くる, <b>きて</b>.</p>
             <!-- Icono de copiar -->
             <button class="btn btn-light border" onclick="copyText('copy-text-7')">
                 <i class="fas fa-copy"></i> Explicacion y practica
@@ -166,14 +214,19 @@ Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si deb
             <!-- Texto que se va a copiar -->
             <textarea id="copy-text-7" style="position: absolute; top: -9999px;">
 Las retroalimentaciones y los comentarios en español.
-Explica "Forma たい (tai)"
+Explica "Forma て (te)"
 Luego pregúntame si tengo alguna duda antes de pasar a la practica y espera a que yo te responda si o no.
 Realiza 4 oraciones para yo traducirlas al japones y practicar ese tipo de oraciones, una por una, para yo responder.
 Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
 Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
                         </textarea>
             <br>
-            <h5>Forma diccionario (辞書形 - jishokei)</h5>
+            <br>
+            <h5>Forma たい (tai)</h5>
+            <p>Deseo de hacer algo, 食べます → 食べ<b>たい</b>, quiero comer.</p>
+            <p>Grupo 1, conviertes el verbo a su raíz <b>ます</b> y agregas <b>たい</b>, 書き<b>ます</b> → 書き<b>たい</b>.</p>
+            <p>Grupo 2, conviertes el verbo a su raíz <b>ます</b> y agregas <b>たい</b>, 食べます → 食べ<b>たい</b>.</p>
+            <p>Grupo 3, する, <b>したい</b>. くる, <b>きたい</b>.</p>
             <!-- Icono de copiar -->
             <button class="btn btn-light border" onclick="copyText('copy-text-8')">
                 <i class="fas fa-copy"></i> Explicacion y practica
@@ -182,14 +235,16 @@ Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si deb
             <!-- Texto que se va a copiar -->
             <textarea id="copy-text-8" style="position: absolute; top: -9999px;">
 Las retroalimentaciones y los comentarios en español.
-Explica "Forma diccionario (辞書形 - jishokei)"
+Explica "Forma たい (tai)"
 Luego pregúntame si tengo alguna duda antes de pasar a la practica y espera a que yo te responda si o no.
 Realiza 4 oraciones para yo traducirlas al japones y practicar ese tipo de oraciones, una por una, para yo responder.
 Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
 Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
                         </textarea>
             <br>
-            <h5>Forma potencial</h5>
+            <br>
+            <h5>Forma diccionario</h5>
+            <p>Version informal, verbo en su forma original, <b>行く</b>, ir.</p>
             <!-- Icono de copiar -->
             <button class="btn btn-light border" onclick="copyText('copy-text-9')">
                 <i class="fas fa-copy"></i> Explicacion y practica
@@ -197,6 +252,33 @@ Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si deb
             <br>
             <!-- Texto que se va a copiar -->
             <textarea id="copy-text-9" style="position: absolute; top: -9999px;">
+Las retroalimentaciones y los comentarios en español.
+Explica "Forma diccionario (辞書形 - jishokei)"
+Luego pregúntame si tengo alguna duda antes de pasar a la practica y espera a que yo te responda si o no.
+Realiza 4 oraciones para yo traducirlas al japones y practicar ese tipo de oraciones, una por una, para yo responder.
+Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
+Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
+                        </textarea>
+            <br>
+            <br>
+            <h5>Forma potencial</h5>
+            <p>Expresa que puedes hacer algo, ejemplo, poder escribir.</p>
+            <p>Grupo 1 cambia la última sílaba por <b>え + る</b>. 書く → 書<b>ける</b>.</p>
+            <p>Forma ます potencial, cambia la última vocal a <b>え + ます</b>. 飲む → 飲<b>めます</b>.</p>
+            <br>
+            <p>Grupo 2, quita el <b>る</b> y agrega <b>られる</b>. 見る → 見<b>られる</b>.</p>
+            <p>Forma ます potencial, quita el <b>る</b> y agrega el <b>られます</b>. 見る → 見<b>られます</b></p>
+            <br>
+            <p>Grupo 3, する, <b>できる</b>. くる, <b>こられる</b>.</p>
+            <p>Forma ます potencial, する, <b>できます</b>. くる, <b>こられます</b>.</p>
+            <!-- Icono de copiar -->
+            <button class="btn btn-light border" onclick="copyText('copy-text-10')">
+                <i class="fas fa-copy"></i> Explicacion y practica
+            </button>
+            <br>
+            <br>
+            <!-- Texto que se va a copiar -->
+            <textarea id="copy-text-10" style="position: absolute; top: -9999px;">
 Las retroalimentaciones y los comentarios en español.
 Explica "Forma potencial del Japonés"
 Luego pregúntame si tengo alguna duda antes de pasar a la practica y espera a que yo te responda si o no.
@@ -206,22 +288,20 @@ Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si deb
             </textarea>
             <br>
             <h5>Verbos irregulares (する, くる)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-10')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-10" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español.
-Explica "Verbos irregulares (する, くる)"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica y espera a que yo te responda si o no.
-Realiza 4 oraciones para yo traducirlas al japones y practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-                        </textarea>
-            <br>
-            <h5>Verbos del grupo 1, 2 y 3</h5>
+            <h4>する</h4>
+            <p>Presente informal, <b>する</b>, Hacer</p>
+            <p>Presente formal, <b>します</b>, Hago / Haré</p>
+            <p>Pasado informal, <b>した</b>, Hice</p>
+            <p>Pasado formal, <b>しました</b>, Hice (formal)</p>
+            <p>Negativo informal, <b>しない</b>, No hago</p>
+            <p>Negativo formal, <b>しません</b>, No hago (formal)</p>
+            <h4>くる</h4>
+            <p>Presente informal, <b>くる</b>, Venir</p>
+            <p>Presente formal, <b>きます</b>, Vengo / Vendré</p>
+            <p>Pasado informal, <b>きた</b>, Vine</p>
+            <p>Pasado formal, <b>きました</b>, Vine (formal)</p>
+            <p>Negativo informal <b>こない</b>, No vengo</p>
+            <p>Negativo formal <b>きません</b>, No vengo (formal)</p>
             <!-- Icono de copiar -->
             <button class="btn btn-light border" onclick="copyText('copy-text-11')">
                 <i class="fas fa-copy"></i> Explicacion y practica
@@ -230,7 +310,7 @@ Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si deb
             <!-- Texto que se va a copiar -->
             <textarea id="copy-text-11" style="position: absolute; top: -9999px;">
 Las retroalimentaciones y los comentarios en español.
-Explica "Verbos del grupo 1, 2 y 3 del japonés"
+Explica "Verbos irregulares (する, くる)"
 Luego pregúntame si tengo alguna duda antes de pasar a la practica y espera a que yo te responda si o no.
 Realiza 4 oraciones para yo traducirlas al japones y practicar ese tipo de oraciones, una por una, para yo responder.
 Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
@@ -239,7 +319,14 @@ Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si deb
             <br>
             <br>
             <h5>4. Adjetivos y conjugaciones</h5>
+            <br>
             <h5>Adjetivos い (い形容詞 - i-keiyoushi)</h5>
+            <p>Categoría de adjetivos en japonés que terminan en la vocal <b>い</b>.</p>
+            <p>Conjugación basica</p>
+            <p>Afirmativa, さむ<b>い</b>です, Hace frío</p>
+            <p>Negativa, さむ<b>くない</b>です, No hace frío</p>
+            <p>Pasado, さむ<b>かった</b>です, Hacía frío</p>
+            <p>Pasado negativo, さむ<b>くなかった</b>です, No hacía frío</p>
             <!-- Icono de copiar -->
             <button class="btn btn-light border" onclick="copyText('copy-text-12')">
                 <i class="fas fa-copy"></i> Explicacion y practica
@@ -255,7 +342,14 @@ Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, 
 Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
                         </textarea>
             <br>
+            <br>
             <h5>Adjetivos な (な形容詞 - na-keiyoushi)</h5>
+            <p>Adjetivos <b>な</b> son palabras que describen cualidades y usan <b>な</b> para modificar sustantivos.</p>
+            <p>Adjetivo: しずか, tranquilo.</p>
+            <p>Afirmativo: 静か<b>な</b>町、しずか<b>な</b>まち, una ciudad tranquila.</p>
+            <p>Afirmativo:  まちはしずかです, la ciudad es tranquila</p>
+            <p>Negativo informal: このまちはしずか<b>じゃない</b>, esta ciudad no es tranquila.</p>
+            <p>Negativo formal: このまちはしずか<b>ではありません</b>, esta ciudad no es tranquila.</p>
             <!-- Icono de copiar -->
             <button class="btn btn-light border" onclick="copyText('copy-text-13')">
                 <i class="fas fa-copy"></i> Explicacion y practica
@@ -270,6 +364,7 @@ Realiza 4 oraciones para yo traducirlas al japones y practicar ese tipo de oraci
 Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
 Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
                         </textarea>
+            <br>
             <br>
             <h5>Forma negativa (～くない / ～じゃない)</h5>
             <!-- Icono de copiar -->
