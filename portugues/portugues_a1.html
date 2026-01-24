@@ -30,55 +30,83 @@
         </div>
     </nav>
 
-    <header class="bg-light text-center py-3 mt-3">
-        <h1>Portugués</h1>
-    </header>
-
     <!-- A1 -->
-    <div class="container mt-3">
-        <!-- A1 -->
+    <header class="bg-light text-center py-3 mt-3">
+        <h1>A1</h1>
+    </header>
+    
+    <!-- 1. Alfabeto -->
+    <div class="container">
+        <!-- 1. Alfabeto -->
         <button class="btn btn-success w-100" type="button" data-bs-toggle="collapse" data-bs-target="#contenido1"
             aria-expanded="false" aria-controls="contenido1">
-            A1
+            1. Alfabeto
         </button>
 
         <div class="collapse bg-light border p-4 mt-1" id="contenido1">
-            <h3>Comprensión y uso de expresiones cotidianas básicas.</h3>
-            <br>
-            <h5>1. Alfabeto</h5>
+            
             <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-1')">
+            <button class="btn btn-light border" onclick="copyText_1('copy-text_1-1')">
                 <i class="fas fa-copy"></i> Explicacion y practica
             </button>
-            <br>
+            <br><br>
+            <button class="btn btn-light border" type="button" data-bs-toggle="collapse" data-bs-target="#contenido1"
+                aria-expanded="false" aria-controls="contenido1">
+                <i class="fa-solid fa-chevron-up"></i>
+            </button>
             <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-1" style="position: absolute; top: -9999px;">
+            <textarea id="copy-text_1-1" style="position: absolute; top: -9999px;">
 Las retroalimentaciones y los comentarios en español por favor.
 Explica "el alfabeto portugués"
 Luego pregúntame si tengo alguna duda antes de pasar a la practica.
 Realízame 4 preguntas una por una, sobre lo que has enseñado.
 Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
 Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>2. Saludos y presentaciones</h5>
+        </textarea>
+        </div>
+    </div>
+
+    <!-- 2. Saludos y presentaciones -->
+    <div class="container mt-2">
+        <!-- 2. Saludos y presentaciones -->
+        <button class="btn btn-success w-100" type="button" data-bs-toggle="collapse" data-bs-target="#contenido2"
+            aria-expanded="false" aria-controls="contenido2">
+            2. Saludos y presentaciones
+        </button>
+
+        <div class="collapse bg-light border p-4 mt-1" id="contenido2">            
             <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-2')">
+            <button class="btn btn-light border" onclick="copyText_1('copy-text_2-2')">
                 <i class="fas fa-copy"></i> Explicacion y practica
             </button>
-            <br>
             <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-2" style="position: absolute; top: -9999px;">
+            <textarea id="copy-text_2-2" style="position: absolute; top: -9999px;">
 Las retroalimentaciones y los comentarios en español por favor.
 Explica "Saludos y presentaciones del portugués"
 Luego pregúntame si tengo alguna duda antes de pasar a la practica.
 Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
 Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
 Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-                        </textarea>
+            </textarea>
+            <br><br>
+            <button class="btn btn-light border" type="button" data-bs-toggle="collapse" data-bs-target="#contenido2"
+                aria-expanded="false" aria-controls="contenido2">
+                <i class="fa-solid fa-chevron-up"></i>
+            </button>
             <br>
-            <br>
-            <h5>3. Artículos definidos e indefinidos</h5>
+        </div>
+    </div>
+
+    <!-- 3. Artículos definidos e indefinidos -->
+    <div class="container mt-2">
+        <!-- 3. Artículos definidos e indefinidos -->
+        <button class="btn btn-success w-100" type="button" 
+        data-bs-toggle="collapse" data-bs-target="#contenido3"
+            aria-expanded="false" aria-controls="contenido3">
+            3. Artículos definidos e indefinidos
+        </button>
+
+        <div class="collapse bg-light border p-4 mt-1" id="contenido3">            
             <p><b>Artículos definidos</b></p>
             <p><b>Masculino</b></p>
             <p><b>O</b>, el, singular. <b>o</b> carro, el coche.</p>
@@ -94,24 +122,41 @@ Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si deb
             <p><b>Femenino</b></p>
             <p><b>Uma</b>, una, singular. <b>uma</b> caneta, una pluma.</p>
             <p><b>Umas</b>, unas, plural. <b>umas</b> canetas, unas plumas.</p>
+            <br>
             <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-3')">
+            <button class="btn btn-light border" onclick="copyText_1('copy-text_3-2')">
                 <i class="fas fa-copy"></i> Explicacion y practica
             </button>
-            <br>
             <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-3" style="position: absolute; top: -9999px;">
+            <textarea id="copy-text_3-2" style="position: absolute; top: -9999px;">
 Las retroalimentaciones y los comentarios en español por favor.
 Explica "Artículos definidos e indefinidos del portugués"
 Luego pregúntame si tengo alguna duda antes de pasar a la practica.
 Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
 Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
 Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-                        </textarea>
+            </textarea>
+            <br><br>
+            <button class="btn btn-light border" type="button" 
+            data-bs-toggle="collapse" data-bs-target="#contenido3"
+                aria-expanded="false" aria-controls="contenido3">
+                <i class="fa-solid fa-chevron-up"></i>
+            </button>
             <br>
-            <br>
-            <h5>4. Pronombres personales y posesivos</h5>
-            <p><b>Singular</b></p>
+        </div>
+    </div>
+
+    <!-- 4. Pronombres personales y posesivos -->
+    <div class="container mt-2">
+        <!-- 4. Pronombres personales y posesivos -->
+        <button class="btn btn-success w-100" type="button" 
+        data-bs-toggle="collapse" data-bs-target="#contenido4"
+            aria-expanded="false" aria-controls="contenido4">
+            4. Pronombres personales y posesivos
+        </button>
+
+        <div class="collapse bg-light border p-4 mt-1" id="contenido4">            
+                        <p><b>Singular</b></p>
             <p><b>Eu</b>, yo</p>
             <p><b>Você</b>, tú/usted</p>
             <p><b>Ele</b>, él</p>
@@ -154,24 +199,40 @@ Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si deb
             <p>o carro <b>dele</b>, el coche de él.</p>
             <p>a caneta <b>dela</b>, el bolígrafo de ella.</p>
             <p>os cadernos <b>deles</b>, los cuadernos de ellos.</p>
-            <p>as bolsas <b>delas</b>, los bolsos de ellas.</p>
+            <p>as bolsas <b>delas</b>, los bolsos de ellas.</p>            
             <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-4')">
+            <button class="btn btn-light border" onclick="copyText_1('copy-text_4-2')">
                 <i class="fas fa-copy"></i> Explicacion y practica
             </button>
-            <br>
             <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-4" style="position: absolute; top: -9999px;">
+            <textarea id="copy-text_4-2" style="position: absolute; top: -9999px;">
 Las retroalimentaciones y los comentarios en español por favor.
 Explica "Pronombres personales y posesivos del portugués"
 Luego pregúntame si tengo alguna duda antes de pasar a la practica.
 Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
 Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
 Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-                        </textarea>
+            </textarea>
+            <br><br>
+            <button class="btn btn-light border" type="button" 
+            data-bs-toggle="collapse" data-bs-target="#contenido4"
+                aria-expanded="false" aria-controls="contenido4">
+                <i class="fa-solid fa-chevron-up"></i>
+            </button>
             <br>
-            <br>
-            <h5>5. Verbos en presente del indicativo (regulares e irregulares básicos)</h5>
+        </div>
+    </div>
+
+    <!-- 5. Verbos en presente del indicativo (regulares e irregulares básicos) -->
+    <div class="container mt-2">
+        <!-- 5. Verbos en presente del indicativo (regulares e irregulares básicos) -->
+        <button class="btn btn-success w-100" type="button" 
+        data-bs-toggle="collapse" data-bs-target="#contenido5"
+            aria-expanded="false" aria-controls="contenido5">
+            5. Verbos en presente del indicativo (regulares e irregulares básicos)
+        </button>
+
+        <div class="collapse bg-light border p-4 mt-1" id="contenido5">            
             <p>El presente del indicativo en portugués se usa para hablar de acciones que ocurren en el momento actual.</p>
             <p><b>Verbos Regulares</b></p>
             <p>Terminación de su infinitivo: <b>ar, er, ir</b>.</p>
@@ -186,22 +247,38 @@ Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si deb
             <p>Vocês estão, <b>estar</b>.</p>
             <p>Elas são, <b>ser</b>.</p>
             <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-5')">
+            <button class="btn btn-light border" onclick="copyText_1('copy-text_5-2')">
                 <i class="fas fa-copy"></i> Explicacion y practica
             </button>
-            <br>
             <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-5" style="position: absolute; top: -9999px;">
+            <textarea id="copy-text_5-2" style="position: absolute; top: -9999px;">
 Las retroalimentaciones y los comentarios en español por favor.
 Explica "Verbos en presente del indicativo (regulares e irregulares básicos) del portugués"
 Luego pregúntame si tengo alguna duda antes de pasar a la practica.
 Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
 Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
 Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-                        </textarea>
+            </textarea>
+            <br><br>
+            <button class="btn btn-light border" type="button" 
+            data-bs-toggle="collapse" data-bs-target="#contenido5"
+                aria-expanded="false" aria-controls="contenido5">
+                <i class="fa-solid fa-chevron-up"></i>
+            </button>
             <br>
-            <br>
-            <h5>6. Números cardinales y ordinales</h5>
+        </div>
+    </div>  
+          
+    <!-- 6. Números cardinales y ordinales -->
+    <div class="container mt-2">
+        <!-- 6. Números cardinales y ordinales -->
+        <button class="btn btn-success w-100" type="button" 
+        data-bs-toggle="collapse" data-bs-target="#contenido6"
+            aria-expanded="false" aria-controls="contenido6">
+            6. Números cardinales y ordinales
+        </button>
+
+        <div class="collapse bg-light border p-4 mt-1" id="contenido6">            
             <p><b>Números Cardinales</b></p>
             <p>1, <b>um/uma</b></p>
             <p>2, <b>dois/duas</b></p>
@@ -232,22 +309,38 @@ Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si deb
             <p>9º, <b>nono/nona</b></p>
             <p>10º, <b>décimo/décima</b></p>
             <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-6')">
+            <button class="btn btn-light border" onclick="copyText_1('copy-text_6-2')">
                 <i class="fas fa-copy"></i> Explicacion y practica
             </button>
-            <br>
             <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-6" style="position: absolute; top: -9999px;">
+            <textarea id="copy-text_6-2" style="position: absolute; top: -9999px;">
 Las retroalimentaciones y los comentarios en español por favor.
 Explica "Números cardinales y ordinales del portugués"
 Luego pregúntame si tengo alguna duda antes de pasar a la practica.
 Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
 Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
 Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-                        </textarea>
+            </textarea>
+            <br><br>
+            <button class="btn btn-light border" type="button" 
+            data-bs-toggle="collapse" data-bs-target="#contenido6"
+                aria-expanded="false" aria-controls="contenido6">
+                <i class="fa-solid fa-chevron-up"></i>
+            </button>
             <br>
-            <br>
-            <h5>7. Expresiones de tiempo (días, meses, horas)</h5>
+        </div>
+    </div>
+
+    <!-- 7. Expresiones de tiempo (días, meses, horas) -->
+    <div class="container mt-2">
+        <!-- 7. Expresiones de tiempo (días, meses, horas) -->
+        <button class="btn btn-success w-100" type="button" 
+        data-bs-toggle="collapse" data-bs-target="#contenido7"
+            aria-expanded="false" aria-controls="contenido7">
+            7. Expresiones de tiempo (días, meses, horas)
+        </button>
+
+        <div class="collapse bg-light border p-4 mt-1" id="contenido7">            
             <p><b>Días de la semana</b></p>
             <p><b>Segunda-feira</b>, lunes.</p>
             <p><b>Terça-feira</b>, martes.</p>
@@ -276,22 +369,38 @@ Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si deb
             <p><b>São nove e meia</b>, Son las nueve y media.</p>
             <p><b>São cinco e quinze</b>, Son las cinco y quince.</p>
             <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-7')">
+            <button class="btn btn-light border" onclick="copyText_1('copy-text_7-2')">
                 <i class="fas fa-copy"></i> Explicacion y practica
             </button>
-            <br>
             <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-7" style="position: absolute; top: -9999px;">
+            <textarea id="copy-text_7-2" style="position: absolute; top: -9999px;">
 Las retroalimentaciones y los comentarios en español por favor.
 Explica "Expresiones de tiempo (días, meses, horas) del portugués"
 Luego pregúntame si tengo alguna duda antes de pasar a la practica.
 Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
 Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
 Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-                        </textarea>
+            </textarea>
+            <br><br>
+            <button class="btn btn-light border" type="button" 
+            data-bs-toggle="collapse" data-bs-target="#contenido7"
+                aria-expanded="false" aria-controls="contenido7">
+                <i class="fa-solid fa-chevron-up"></i>
+            </button>
             <br>
-            <br>
-            <h5>8. Adjetivos y concordancia de género y número</h5>
+        </div>
+    </div>
+
+    <!-- 8. Adjetivos y concordancia de género y número -->
+    <div class="container mt-2">
+        <!-- 8. Adjetivos y concordancia de género y número -->
+        <button class="btn btn-success w-100" type="button" 
+        data-bs-toggle="collapse" data-bs-target="#contenido8"
+            aria-expanded="false" aria-controls="contenido8">
+            8. Adjetivos y concordancia de género y número
+        </button>
+
+        <div class="collapse bg-light border p-4 mt-1" id="contenido8">            
             <p><b>Concordancia de género</b></p>
             <p>Los adjetivos masculinos terminan en <b>-o</b> y los femeninos en <b>-a</b>.</p>
             <p><b>Masculino</b>: O carro <b>bonito</b>, el coche bonito.</p>
@@ -323,22 +432,38 @@ Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si deb
             <p><b>Plural femenino ãs</b></p>
             <p>Elas são mulheres <b>alemãs</b>, son mujeres alemanas.</p>
             <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-8')">
+            <button class="btn btn-light border" onclick="copyText_1('copy-text_8-2')">
                 <i class="fas fa-copy"></i> Explicacion y practica
             </button>
-            <br>
             <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-8" style="position: absolute; top: -9999px;">
+            <textarea id="copy-text_8-2" style="position: absolute; top: -9999px;">
 Las retroalimentaciones y los comentarios en español por favor.
 Explica "Adjetivos y concordancia de género y número del portugués"
 Luego pregúntame si tengo alguna duda antes de pasar a la practica.
 Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
 Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
 Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-                        </textarea>
+            </textarea>
+            <br><br>
+            <button class="btn btn-light border" type="button" 
+            data-bs-toggle="collapse" data-bs-target="#contenido8"
+                aria-expanded="false" aria-controls="contenido8">
+                <i class="fa-solid fa-chevron-up"></i>
+            </button>
             <br>
-            <br>
-            <h5>9. Estructuras de negación</h5>
+        </div>
+    </div>
+
+    <!-- 9. Estructuras de negación -->
+    <div class="container mt-2">
+        <!-- 9. Estructuras de negación -->
+        <button class="btn btn-success w-100" type="button" 
+        data-bs-toggle="collapse" data-bs-target="#contenido9"
+            aria-expanded="false" aria-controls="contenido9">
+            9. Estructuras de negación
+        </button>
+
+        <div class="collapse bg-light border p-4 mt-1" id="contenido9">            
             <p><b>Negación Simple con Não</b></p>
             <p>Eu <b>não</b> como frutas.</p>
             <br>
@@ -359,13 +484,11 @@ Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si deb
             <p><b>Sem</b></p>
             <p>Ele saiu <b>sem</b> avisar.</p>
             <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-9')">
+            <button class="btn btn-light border" onclick="copyText_1('copy-text_9-2')">
                 <i class="fas fa-copy"></i> Explicacion y practica
             </button>
-            <br>
-            <br>
             <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-9" style="position: absolute; top: -9999px;">
+            <textarea id="copy-text_9-2" style="position: absolute; top: -9999px;">
 Las retroalimentaciones y los comentarios en español por favor.
 Explica "Estructuras de negación del portugués"
 Luego pregúntame si tengo alguna duda antes de pasar a la practica.
@@ -373,8 +496,26 @@ Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una p
 Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
 Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
             </textarea>
+            <br><br>
+            <button class="btn btn-light border" type="button" 
+            data-bs-toggle="collapse" data-bs-target="#contenido9"
+                aria-expanded="false" aria-controls="contenido9">
+                <i class="fa-solid fa-chevron-up"></i>
+            </button>
             <br>
-            <h5>10. Preguntas básicas (uso de "O que", "Quem", "Onde", etc.)</h5>
+        </div>
+    </div>
+
+    <!-- 10. Preguntas básicas (uso de "O que", "Quem", "Onde", etc.) -->
+    <div class="container mt-2">
+        <!-- 10. Preguntas básicas (uso de "O que", "Quem", "Onde", etc.) -->
+        <button class="btn btn-success w-100" type="button" 
+        data-bs-toggle="collapse" data-bs-target="#contenido10"
+            aria-expanded="false" aria-controls="contenido10">
+            10. Preguntas básicas (uso de "O que", "Quem", "Onde", etc.)
+        </button>
+
+        <div class="collapse bg-light border p-4 mt-1" id="contenido10">            
             <p><b>Preguntas abiertas</b></p>
             <p><b>O que</b></p>
             <p><b>O que</b> você faz?</p>
@@ -391,22 +532,38 @@ Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si deb
             <p><b>Quanto</b></p>
             <p><b>Quanto</b> custa isso?</p>
             <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-10')">
+            <button class="btn btn-light border" onclick="copyText_1('copy-text_10-2')">
                 <i class="fas fa-copy"></i> Explicacion y practica
             </button>
-            <br>
             <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-10" style="position: absolute; top: -9999px;">
+            <textarea id="copy-text_10-2" style="position: absolute; top: -9999px;">
 Las retroalimentaciones y los comentarios en español por favor.
 Explica "Preguntas básicas (uso de "O que", "Quem", "Onde", etc.) del portugués"
 Luego pregúntame si tengo alguna duda antes de pasar a la practica.
 Dejame construir 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para que tu respondas responder.
 Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
 Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-                        </textarea>
+            </textarea>
+            <br><br>
+            <button class="btn btn-light border" type="button" 
+            data-bs-toggle="collapse" data-bs-target="#contenido10"
+                aria-expanded="false" aria-controls="contenido10">
+                <i class="fa-solid fa-chevron-up"></i>
+            </button>
             <br>
-            <br>
-            <h5>11. Preposiciones básicas (de lugar y de tiempo)</h5>
+        </div>
+    </div>
+
+    <!-- 11. Preposiciones básicas (de lugar y de tiempo) -->
+    <div class="container mt-2">
+        <!-- 11. Preposiciones básicas (de lugar y de tiempo) -->
+        <button class="btn btn-success w-100" type="button" 
+        data-bs-toggle="collapse" data-bs-target="#contenido11"
+            aria-expanded="false" aria-controls="contenido11">
+            11. Preposiciones básicas (de lugar y de tiempo)
+        </button>
+
+        <div class="collapse bg-light border p-4 mt-1" id="contenido11">            
             <p><b>Preposiciones de lugar</b></p>
             <p><b>Em</b>, puede combinarse con artículos definidos, no, na, nos, nas.</p>
             <p>Eu moro <b>em</b> Lisboa.</p>
@@ -448,45 +605,77 @@ Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si deb
             <p><b>do</b>: de + o</p> 
             <p><b>da</b>: de + a</p>
             <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-11')">
+            <button class="btn btn-light border" onclick="copyText_1('copy-text_11-2')">
                 <i class="fas fa-copy"></i> Explicacion y practica
             </button>
-            <br>
             <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-11" style="position: absolute; top: -9999px;">
+            <textarea id="copy-text_11-2" style="position: absolute; top: -9999px;">
 Las retroalimentaciones y los comentarios en español por favor.
 Explica "Preposiciones básicas (de lugar y de tiempo) del portugués"
 Luego pregúntame si tengo alguna duda antes de pasar a la practica.
 Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
 Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
 Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-                        </textarea>
+            </textarea>
+            <br><br>
+            <button class="btn btn-light border" type="button" 
+            data-bs-toggle="collapse" data-bs-target="#contenido11"
+                aria-expanded="false" aria-controls="contenido11">
+                <i class="fa-solid fa-chevron-up"></i>
+            </button>
             <br>
-            <br>
-            <h5>12. Expresión de gustos y preferencias</h5>
-            <!-- Icono de copiar -->
+        </div>
+    </div>
+
+    <!-- 12. Expresión de gustos y preferencias -->
+    <div class="container mt-2">
+        <!-- 12. Expresión de gustos y preferencias -->
+        <button class="btn btn-success w-100" type="button" 
+        data-bs-toggle="collapse" data-bs-target="#contenido12"
+            aria-expanded="false" aria-controls="contenido12">
+            12. Expresión de gustos y preferencias
+        </button>
+
+        <div class="collapse bg-light border p-4 mt-1" id="contenido12">            
             <p><b>Gosto de</b> chocolate, me gusta el chocolate</p>
             <p><b>Não gosto de</b> café, no me gusta el café</p>
             <p><b>Adoro</b> viajar, adoro viajar</p>
             <p><b>Detesto</b> acordar cedo, detesto madrugar</p>
             <p><b>Prefiro</b> chá a café, prefiero té que café</p>
             <p><b>Gosto mais de</b> cães do que de gatos, me gustan más los perros que los gatos</p>
-            <button class="btn btn-light border" onclick="copyText('copy-text-12')">
+            <!-- Icono de copiar -->
+            <button class="btn btn-light border" onclick="copyText_1('copy-text_12-2')">
                 <i class="fas fa-copy"></i> Explicacion y practica
             </button>
-            <br>
-            <br>
             <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-12" style="position: absolute; top: -9999px;">
+            <textarea id="copy-text_12-2" style="position: absolute; top: -9999px;">
 Las retroalimentaciones y los comentarios en español por favor.
 Explica "Expresión de gustos y preferencias del portugués"
 Luego pregúntame si tengo alguna duda antes de pasar a la practica.
 Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
 Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
 Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-                        </textarea>
+            </textarea>
+            <br><br>
+            <button class="btn btn-light border" type="button" 
+            data-bs-toggle="collapse" data-bs-target="#contenido12"
+                aria-expanded="false" aria-controls="contenido12">
+                <i class="fa-solid fa-chevron-up"></i>
+            </button>
             <br>
-            <h5>13. Frases básicas para situaciones cotidianas (compras, restaurante, direcciones)</h5>
+        </div>
+    </div>
+
+    <!-- 13. Frases básicas para situaciones cotidianas (compras, restaurante, direcciones) -->
+    <div class="container mt-2">
+        <!-- 13. Frases básicas para situaciones cotidianas (compras, restaurante, direcciones) -->
+        <button class="btn btn-success w-100" type="button" 
+        data-bs-toggle="collapse" data-bs-target="#contenido13"
+            aria-expanded="false" aria-controls="contenido13">
+            13. Frases básicas para situaciones cotidianas (compras, restaurante, direcciones)
+        </button>
+
+        <div class="collapse bg-light border p-4 mt-1" id="contenido13">            
             <p>Quanto custa?</p>
             <p>Eu quero isso.</p>
             <p>Tem em outro tamanho/cor?</p>
@@ -501,22 +690,38 @@ Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si deb
             <p>Como chego a [lugar]?</p>
             <p>Desculpe, estou perdido/a.</p>
             <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-13')">
+            <button class="btn btn-light border" onclick="copyText_1('copy-text_13-2')">
                 <i class="fas fa-copy"></i> Explicacion y practica
             </button>
-            <br>
-            <br>
             <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-13" style="position: absolute; top: -9999px;">
+            <textarea id="copy-text_13-2" style="position: absolute; top: -9999px;">
 Las retroalimentaciondddddes y los comentarios en español por favor.
 Explica "Frases básicas para situaciones cotidianas (compras, restaurante, direcciones) del portugués"
 Luego pregúntame si tengo alguna duda antes de pasar a la practica.
 Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
 Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
 Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-                        </textarea>
+            </textarea>
+            <br><br>
+            <button class="btn btn-light border" type="button" 
+            data-bs-toggle="collapse" data-bs-target="#contenido13"
+                aria-expanded="false" aria-controls="contenido13">
+                <i class="fa-solid fa-chevron-up"></i>
+            </button>
             <br>
-            <h5>14. Verbos "ser" y "estar" (diferencias y usos)</h5>
+        </div>
+    </div>
+
+    <!-- 14. Verbos "ser" y "estar" (diferencias y usos) -->
+    <div class="container mt-2">
+        <!-- 14. Verbos "ser" y "estar" (diferencias y usos) -->
+        <button class="btn btn-success w-100" type="button" 
+        data-bs-toggle="collapse" data-bs-target="#contenido14"
+            aria-expanded="false" aria-controls="contenido14">
+            14. Verbos "ser" y "estar" (diferencias y usos)
+        </button>
+
+        <div class="collapse bg-light border p-4 mt-1" id="contenido14">            
             <p><b>Exemplos</b></p>
             <p>Eu <b>sou</b> brasileiro.</p>
             <p>Ela <b>é</b> médica.</p>
@@ -534,21 +739,38 @@ Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si deb
             <p><b>Estou</b> estudando.</p>
             <p><b>Estou</b> boa, estoy bien de salud.</p>
             <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-14')">
+            <button class="btn btn-light border" onclick="copyText_1('copy-text_14-2')">
                 <i class="fas fa-copy"></i> Explicacion y practica
             </button>
-            <br>
             <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-14" style="position: absolute; top: -9999px;">
+            <textarea id="copy-text_14-2" style="position: absolute; top: -9999px;">
 Las retroalimentaciones y los comentarios en español por favor.
 Explica "Verbos "ser" y "estar" (diferencias y usos) del portugués"
 Luego pregúntame si tengo alguna duda antes de pasar a la practica.
 Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
 Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
 Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-                        </textarea>
+            </textarea>
+            <br><br>
+            <button class="btn btn-light border" type="button" 
+            data-bs-toggle="collapse" data-bs-target="#contenido14"
+                aria-expanded="false" aria-controls="contenido14">
+                <i class="fa-solid fa-chevron-up"></i>
+            </button>
             <br>
-            <h5>15. Verbos "ter", "haver" y "existir" (para expresar posesión y existencia)</h5>
+        </div>
+    </div>
+    
+    <!-- 15. Verbos "ter", "haver" y "existir" (para expresar posesión y existencia) -->
+    <div class="container mt-2">
+        <!-- 15. Verbos "ter", "haver" y "existir" (para expresar posesión y existencia) -->
+        <button class="btn btn-success w-100" type="button" 
+        data-bs-toggle="collapse" data-bs-target="#contenido15"
+            aria-expanded="false" aria-controls="contenido15">
+            15. Verbos "ter", "haver" y "existir" (para expresar posesión y existencia)
+        </button>
+
+        <div class="collapse bg-light border p-4 mt-1" id="contenido15">            
             <p><b>Ter: tener</b></p>
             <p>Eu <b>tenho</b> um carro.</p>
             <p>Ela <b>tem</b> dois irmãos.</p>
@@ -569,23 +791,39 @@ Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si deb
             <p>No mundo <b>existem</b> pessoas boas e ruins.</p>
             <p><b>Existia</b> uma loja muito boa aqui.</p>
             <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-15')">
+            <button class="btn btn-light border" onclick="copyText_1('copy-text_15-2')">
                 <i class="fas fa-copy"></i> Explicacion y practica
             </button>
-            <br>
             <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-15" style="position: absolute; top: -9999px;">
+            <textarea id="copy-text_15-2" style="position: absolute; top: -9999px;">
 Las retroalimentaciones y los comentarios en español por favor.
 Explica "Verbos "ter", "haver" y "existir" (para expresar posesión y existencia) del portugués"
 Luego pregúntame si tengo alguna duda antes de pasar a la practica.
 Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
 Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
 Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-                        </textarea>
+            </textarea>
+            <br><br>
+            <button class="btn btn-light border" type="button" 
+            data-bs-toggle="collapse" data-bs-target="#contenido15"
+                aria-expanded="false" aria-controls="contenido15">
+                <i class="fa-solid fa-chevron-up"></i>
+            </button>
             <br>
-            <br>
-            <h5>16. Conjugación de verbos reflexivos (levantar-se, chamar-se)</h5>
-            <p>Indican que la acción recae sobre el propio sujeto que la realiza.</p>
+        </div>
+    </div>
+
+    <!-- 16. Conjugación de verbos reflexivos (levantar-se, chamar-se) -->
+    <div class="container mt-2">
+        <!-- 16. Conjugación de verbos reflexivos (levantar-se, chamar-se) -->
+        <button class="btn btn-success w-100" type="button" 
+        data-bs-toggle="collapse" data-bs-target="#contenido16"
+            aria-expanded="false" aria-controls="contenido16">
+            16. Conjugación de verbos reflexivos (levantar-se, chamar-se)
+        </button>
+
+        <div class="collapse bg-light border p-4 mt-1" id="contenido16">            
+            <p>La conjugación de verbos reflexivos indican que la acción recae sobre el propio sujeto que la realiza.</p>
             <br>
             <p><b>Eu - me:</b></p> 
             <p>Eu <b>me</b> levanto.</p> 
@@ -615,21 +853,38 @@ Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si deb
             <p>Eles <b>se</b> chamam.</p>
             <p>Ellos <b>se</b> llaman.</p>
             <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-16')">
+            <button class="btn btn-light border" onclick="copyText_1('copy-text_16-2')">
                 <i class="fas fa-copy"></i> Explicacion y practica
             </button>
-            <br>
             <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-16" style="position: absolute; top: -9999px;">
+            <textarea id="copy-text_16-2" style="position: absolute; top: -9999px;">
 Las retroalimentaciones y los comentarios en español por favor.
 Explica "Conjugación de verbos reflexivos (levantar-se, chamar-se) del portugués"
 Luego pregúntame si tengo alguna duda antes de pasar a la practica.
 Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
 Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
 Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-                        </textarea>
+            </textarea>
+            <br><br>
+            <button class="btn btn-light border" type="button" 
+            data-bs-toggle="collapse" data-bs-target="#contenido16"
+                aria-expanded="false" aria-controls="contenido16">
+                <i class="fa-solid fa-chevron-up"></i>
+            </button>
             <br>
-            <h5>17. Uso del infinitivo y del gerundio en frases simples</h5>
+        </div>
+    </div>
+
+    <!-- 17. Uso del infinitivo y del gerundio en frases simples -->
+    <div class="container mt-2">
+        <!-- 17. Uso del infinitivo y del gerundio en frases simples -->
+        <button class="btn btn-success w-100" type="button" 
+        data-bs-toggle="collapse" data-bs-target="#contenido17"
+            aria-expanded="false" aria-controls="contenido17">
+            17. Uso del infinitivo y del gerundio en frases simples
+        </button>
+
+        <div class="collapse bg-light border p-4 mt-1" id="contenido17">            
             <p><b>Infinitivo</b></p>
             <p>Quero <b>estudar</b> português.</p>
             <p>Vou <b>viajar</b> amanhã.</p>
@@ -657,22 +912,38 @@ Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si deb
             <p>Brasil: Ela entrou <b>sorrindo</b>.</p>
             <p>Portugal: Ela entrou <b>a sorrir</b>.</p>
             <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-17')">
+            <button class="btn btn-light border" onclick="copyText_1('copy-text_17-2')">
                 <i class="fas fa-copy"></i> Explicacion y practica
             </button>
-            <br>
-            <br>
             <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-17" style="position: absolute; top: -9999px;">
+            <textarea id="copy-text_17-2" style="position: absolute; top: -9999px;">
 Las retroalimentaciones y los comentarios en español por favor.
 Explica "Uso del infinitivo y del gerundio en frases simples del portugués"
 Luego pregúntame si tengo alguna duda antes de pasar a la practica.
 Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
 Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
 Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-                        </textarea>
+            </textarea>
+            <br><br>
+            <button class="btn btn-light border" type="button" 
+            data-bs-toggle="collapse" data-bs-target="#contenido17"
+                aria-expanded="false" aria-controls="contenido17">
+                <i class="fa-solid fa-chevron-up"></i>
+            </button>
             <br>
-            <h5>18. Conectores básicos (e, mas, ou, porque, então)</h5>
+        </div>
+    </div>
+
+    <!-- 18. Conectores básicos (e, mas, ou, porque, então) -->
+    <div class="container mt-2">
+        <!-- 18. Conectores básicos (e, mas, ou, porque, então) -->
+        <button class="btn btn-success w-100" type="button" 
+        data-bs-toggle="collapse" data-bs-target="#contenido18"
+            aria-expanded="false" aria-controls="contenido18">
+            18. Conectores básicos (e, mas, ou, porque, então)
+        </button>
+
+        <div class="collapse bg-light border p-4 mt-1" id="contenido18">            
             <p><b>e: y</b></p>
             <p>Eu gosto de café <b>e</b> de chá.</p>
             <p><b>mas: pero</b></p>
@@ -684,23 +955,39 @@ Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si deb
             <p><b>então: entonces, así que, por lo tanto</b></p>
             <p>Estava chovendo muito, <b>então</b> ficamos em casa.</p>
             <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-18')">
+            <button class="btn btn-light border" onclick="copyText_1('copy-text_18-2')">
                 <i class="fas fa-copy"></i> Explicacion y practica
             </button>
-            <br>
             <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-18" style="position: absolute; top: -9999px;">
+            <textarea id="copy-text_18-2" style="position: absolute; top: -9999px;">
 Las retroalimentaciones y los comentarios en español por favor.
 Explica "Conectores básicos (e, mas, ou, porque, então) del portugués"
 Luego pregúntame si tengo alguna duda antes de pasar a la practica.
 Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
 Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
 Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-                        </textarea>
+            </textarea>
+            <br><br>
+            <button class="btn btn-light border" type="button" 
+            data-bs-toggle="collapse" data-bs-target="#contenido18"
+                aria-expanded="false" aria-controls="contenido18">
+                <i class="fa-solid fa-chevron-up"></i>
+            </button>
             <br>
-            <br>
-            <h5>19. Expresiones de frecuencia (sempre, nunca, às vezes)</h5>
-            <p>Indican con qué frecuencia sucede una acción.</p>
+        </div>
+    </div>
+
+    <!-- 19. Expresiones de frecuencia (sempre, nunca, às vezes) -->
+    <div class="container mt-2">
+        <!-- 19. Expresiones de frecuencia (sempre, nunca, às vezes) -->
+        <button class="btn btn-success w-100" type="button" 
+        data-bs-toggle="collapse" data-bs-target="#contenido19"
+            aria-expanded="false" aria-controls="contenido19">
+            19. Expresiones de frecuencia (sempre, nunca, às vezes)
+        </button>
+
+        <div class="collapse bg-light border p-4 mt-1" id="contenido19">            
+            <p>Estas expresiones indican con qué frecuencia sucede una acción.</p>
             <p>Eu <b>sempre</b> me levanto às sete da manhã.</p>
             <p>Ela <b>quase sempre</b> traz um livro para ler no ônibus.</p>
             <p><b>Geralmente</b> comemos massa aos domingos em família.</p>
@@ -712,22 +999,38 @@ Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si deb
             <p><b>Eu quase nunca</b> tomo café à noite porque me tira o sono.</p>
             <p><b>Eu nunca</b> visitei a Grande Muralha da China.</p>
             <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-19')">
+            <button class="btn btn-light border" onclick="copyText_1('copy-text_19-2')">
                 <i class="fas fa-copy"></i> Explicacion y practica
             </button>
-            <br>
-            <br>
             <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-19" style="position: absolute; top: -9999px;">
+            <textarea id="copy-text_19-2" style="position: absolute; top: -9999px;">
 Las retroalimentaciones y los comentarios en español por favor.
 Explica "Expresiones de frecuencia (sempre, nunca, às vezes) del portugués"
 Luego pregúntame si tengo alguna duda antes de pasar a la practica.
 Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
 Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
 Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-                        </textarea>
+            </textarea>
+            <br><br>
+            <button class="btn btn-light border" type="button" 
+            data-bs-toggle="collapse" data-bs-target="#contenido19"
+                aria-expanded="false" aria-controls="contenido19">
+                <i class="fa-solid fa-chevron-up"></i>
+            </button>
             <br>
-            <h5>20. Verbos "ir" y "vir" (movimiento y direcciones)</h5>
+        </div>
+    </div>
+
+    <!-- 20. Verbos "ir" y "vir" (movimiento y direcciones) -->
+    <div class="container mt-2">
+        <!-- 20. Verbos "ir" y "vir" (movimiento y direcciones) -->
+        <button class="btn btn-success w-100" type="button" 
+        data-bs-toggle="collapse" data-bs-target="#contenido20"
+            aria-expanded="false" aria-controls="contenido20">
+            20. Verbos "ir" y "vir" (movimiento y direcciones)
+        </button>
+
+        <div class="collapse bg-light border p-4 mt-1" id="contenido20">            
             <p><b>Ir: ir</b></p>
             <p>Alejarse del lugar donde está el hablante</p>
             <p>Eu <b>vou</b> para a escola.</p>
@@ -754,22 +1057,38 @@ Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si deb
             <p>Nós <b>vimos</b></p>
             <p>Eles/Elas/Vocês <b>vêm</b></p>
             <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-20')">
+            <button class="btn btn-light border" onclick="copyText_1('copy-text_20-2')">
                 <i class="fas fa-copy"></i> Explicacion y practica
             </button>
-            <br>
-            <br>
             <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-20" style="position: absolute; top: -9999px;">
+            <textarea id="copy-text_20-2" style="position: absolute; top: -9999px;">
 Las retroalimentaciones y los comentarios en español por favor.
 Explica "Verbos "ir" y "vir" (movimiento y direcciones) del portugués"
 Luego pregúntame si tengo alguna duda antes de pasar a la practica.
 Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
 Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
 Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-                        </textarea>
+            </textarea>
+            <br><br>
+            <button class="btn btn-light border" type="button" 
+            data-bs-toggle="collapse" data-bs-target="#contenido20"
+                aria-expanded="false" aria-controls="contenido20">
+                <i class="fa-solid fa-chevron-up"></i>
+            </button>
             <br>
-            <h5>21. Uso de "gostar de" + infinitivo o sustantivo</h5>
+        </div>
+    </div>
+ 
+    <!-- 21. Uso de "gostar de" + infinitivo o sustantivo -->
+    <div class="container mt-2">
+        <!-- 21. Uso de "gostar de" + infinitivo o sustantivo -->
+        <button class="btn btn-success w-100" type="button" 
+        data-bs-toggle="collapse" data-bs-target="#contenido21"
+            aria-expanded="false" aria-controls="contenido21">
+            21. Uso de "gostar de" + infinitivo o sustantivo
+        </button>
+
+        <div class="collapse bg-light border p-4 mt-1" id="contenido21">            
             <p>Gostar de se usa para expresar que algo o alguien le gusta algo.</p>
             <p>Eu <b>gosto</b> de ler livros</p>
             <p>Ela <b>gosta</b> de viajar</p> 
@@ -780,13 +1099,11 @@ Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si deb
             <p><b>Gostas</b> de ouvir música clássica?</p>
             <p>Nós <b>não gostamos</b> de acordar cedo</p>
             <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-21')">
+            <button class="btn btn-light border" onclick="copyText_1('copy-text_21-2')">
                 <i class="fas fa-copy"></i> Explicacion y practica
             </button>
-            <br>
-            <br>
             <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-21" style="position: absolute; top: -9999px;">
+            <textarea id="copy-text_21-2" style="position: absolute; top: -9999px;">
 Las retroalimentaciones y los comentarios en español por favor.
 Explica "Uso de "gostar de" + infinitivo o sustantivo del portugués"
 Luego pregúntame si tengo alguna duda antes de pasar a la practica.
@@ -794,8 +1111,26 @@ Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una p
 Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
 Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.            
             </textarea>
+            <br><br>
+            <button class="btn btn-light border" type="button" 
+            data-bs-toggle="collapse" data-bs-target="#contenido21"
+                aria-expanded="false" aria-controls="contenido21">
+                <i class="fa-solid fa-chevron-up"></i>
+            </button>
             <br>
-            <h5>22. Diferencia entre "bom" y "bem", "mau" y "mal"</h5>
+        </div>
+    </div>
+
+    <!-- 22. Diferencia entre "bom" y "bem", "mau" y "mal" -->
+    <div class="container mt-2">
+        <!-- 22. Diferencia entre "bom" y "bem", "mau" y "mal" -->
+        <button class="btn btn-success w-100" type="button" 
+        data-bs-toggle="collapse" data-bs-target="#contenido22"
+            aria-expanded="false" aria-controls="contenido22">
+            22. Diferencia entre "bom" y "bem", "mau" y "mal"
+        </button>
+
+        <div class="collapse bg-light border p-4 mt-1" id="contenido22">            
             <p>Bom, boa, bons, boas, modifican sustantivos</p>
             <p><b>Singular</b></p>
             <p><b>Bom</b>, bueno, masculino.</p>
@@ -828,12 +1163,11 @@ Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si deb
             <p><b>Mal</b></p>
             <p>Ela canta <b>mal</b>.</p>
             <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-22')">
+            <button class="btn btn-light border" onclick="copyText_1('copy-text_22-2')">
                 <i class="fas fa-copy"></i> Explicacion y practica
             </button>
-            <br>
             <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-22" style="position: absolute; top: -9999px;">
+            <textarea id="copy-text_22-2" style="position: absolute; top: -9999px;">
 Las retroalimentaciones y los comentarios en español por favor.
 Explica "Diferencia entre "bom" y "bem", "mau" y "mal" del portugués"
 Luego pregúntame si tengo alguna duda antes de pasar a la practica.
@@ -841,31 +1175,88 @@ Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una p
 Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
 Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
             </textarea>
-            <br>
-            <h5>23. Diferencias entre "muito" y "muitos"</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-23')">
-                <i class="fas fa-copy"></i> Explicacion y practica
+            <br><br>
+            <button class="btn btn-light border" type="button" 
+            data-bs-toggle="collapse" data-bs-target="#contenido22"
+                aria-expanded="false" aria-controls="contenido22">
+                <i class="fa-solid fa-chevron-up"></i>
             </button>
             <br>
+        </div>
+    </div>
+
+    <!-- 23. Diferencias entre "muito" y "muitos" -->
+    <div class="container mt-2">
+        <!-- 23. Diferencias entre "muito" y "muitos" -->
+        <button class="btn btn-success w-100" type="button" 
+        data-bs-toggle="collapse" data-bs-target="#contenido23"
+            aria-expanded="false" aria-controls="contenido23">
+            23. Diferencias entre "muito" y "muitos"
+        </button>
+
+        <div class="collapse bg-light border p-4 mt-1" id="contenido23">            
+            <p>La diferencia principal entre muito y muitos está en el género y el número.</p>
+            <br>
+            <p><b>Masculino</b></p>
+            <p><b>Singular</b></p>
+            <p>Tenho <b>muito</b> tempo.</p>
+            <p><b>Plural</b></p>
+            <p>Tenho <b>muitos</b> amigos.</p>
+            <br>
+            <p><b>Femenino</b></p>
+            <p><b>Singular</b></p>
+            <p>Ela tem <b>muita</b> paciência.</p>
+            <p><b>Plural</b></p>
+            <p>Elas têm <b>muitas</b> ideias.</p>
+            <br>
+            <!-- Icono de copiar -->
+            <button class="btn btn-light border" onclick="copyText_1('copy-text_23-2')">
+                <i class="fas fa-copy"></i> Explicacion y practica
+            </button>
             <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-23" style="position: absolute; top: -9999px;">
+            <textarea id="copy-text_23-2" style="position: absolute; top: -9999px;">
 Las retroalimentaciones y los comentarios en español por favor.
 Explica "Diferencias entre "muito" y "muitos" del portugués"
 Luego pregúntame si tengo alguna duda antes de pasar a la practica.
 Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
 Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
 Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.            
-</textarea>
-            <br>
-            <h5>24. Uso de "com" y "sem" para expresar compañía o ausencia</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-24')">
-                <i class="fas fa-copy"></i> Explicacion y practica
+            </textarea>
+            <br><br>
+            <button class="btn btn-light border" type="button" 
+            data-bs-toggle="collapse" data-bs-target="#contenido23"
+                aria-expanded="false" aria-controls="contenido23">
+                <i class="fa-solid fa-chevron-up"></i>
             </button>
             <br>
+        </div>
+    </div>
+
+    <!-- 24. Uso de "com" y "sem" para expresar compañía o ausencia -->
+    <div class="container mt-2">
+        <!-- 24. Uso de "com" y "sem" para expresar compañía o ausencia -->
+        <button class="btn btn-success w-100" type="button" 
+        data-bs-toggle="collapse" data-bs-target="#contenido24"
+            aria-expanded="false" aria-controls="contenido24">
+            24. Uso de "com" y "sem" para expresar compañía o ausencia
+        </button>
+        
+        <div class="collapse bg-light border p-4 mt-1" id="contenido24">            
+            <p>Las preposiciones com y sem se utilizan para indicar compañía o ausencia.</p>
+
+            <p><b>Com</b></p>
+            <p>Eu vou ao cinema <b>com</b> meus amigos.</p>
+            <p>Ela comeu o bolo <b>com</b> chocolate.</p>
+
+            <p><b>Sem</b></p>
+            <p>Eu saí <b>sem</b> dinheiro.</p>
+            <p>Ela foi à praia <b>sem</b> os filhos.</p>    
+            <!-- Icono de copiar -->
+            <button class="btn btn-light border" onclick="copyText_1('copy-text_24-2')">
+                <i class="fas fa-copy"></i> Explicacion y practica
+            </button>
             <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-24" style="position: absolute; top: -9999px;">
+            <textarea id="copy-text_24-2" style="position: absolute; top: -9999px;">
 Las retroalimentaciones y los comentarios en español por favor.
 Explica "Uso de "com" y "sem" para expresar compañía o ausencia del portugués"
 Luego pregúntame si tengo alguna duda antes de pasar a la practica.
@@ -873,20 +1264,39 @@ Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una p
 Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
 Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
             </textarea>
-            <br>
-            <h5>25. Imperativo informal en frases básicas (fale, coma, abra)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-25')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
             <br><br>
-            <button class="btn btn-light border" type="button" data-bs-toggle="collapse" data-bs-target="#contenido1"
-                aria-expanded="false" aria-controls="contenido1">
+            <button class="btn btn-light border" type="button" 
+            data-bs-toggle="collapse" data-bs-target="#contenido24"
+                aria-expanded="false" aria-controls="contenido24">
                 <i class="fa-solid fa-chevron-up"></i>
             </button>
             <br>
+        </div>
+    </div>
+
+    <!-- 25. Imperativo informal en frases básicas (fale, coma, abra) -->
+    <div class="container mt-2">
+        <!-- 25. Imperativo informal en frases básicas (fale, coma, abra) -->
+        <button class="btn btn-success w-100" type="button" 
+        data-bs-toggle="collapse" data-bs-target="#contenido25"
+            aria-expanded="false" aria-controls="contenido25">
+            25. Imperativo informal en frases básicas (fale, coma, abra)
+        </button>
+
+        <div class="collapse bg-light border p-4 mt-1" id="contenido25">            
+            <p>El imperativo informal se usa para dar órdenes a alguien con quien tienes confianza o cercanía.</p>
+            <P><b>Fala</b> mais devagar!</P> 
+            <P><b>Come</b> a sopa toda.</P> 
+            <P><b>Abre</b> a janela, por favor.</P> 
+            <P><b>Escuta</b> essa música comigo.</P>
+            <p><b>Bebe</b> água agora.</p> 
+            <p><b>Corre</b> rápido!</p>
+            <!-- Icono de copiar -->
+            <button class="btn btn-light border" onclick="copyText_1('copy-text_25-2')">
+                <i class="fas fa-copy"></i> Explicacion y practica
+            </button>
             <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-25" style="position: absolute; top: -9999px;">
+            <textarea id="copy-text_25-2" style="position: absolute; top: -9999px;">
 Las retroalimentaciones y los comentarios en español por favor.
 Explica "Imperativo informal en frases básicas (fale, coma, abra) del portugués"
 Luego pregúntame si tengo alguna duda antes de pasar a la practica.
@@ -894,1562 +1304,13 @@ Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una p
 Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
 Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
             </textarea>
-            <br>
-        </div>
-    </div>
-
-    <!-- A2 -->
-    <div class="container mt-2">
-        <!-- A2 -->
-        <button class="btn btn-success w-100" type="button" data-bs-toggle="collapse" data-bs-target="#contenido02"
-            aria-expanded="false" aria-controls="contenido02">
-            A2
-        </button>
-
-        <div class="collapse bg-light border p-4 mt-1" id="contenido02">
-            <h3>Comunicación sencilla en situaciones cotidianas.</h3>
-            <br>
-            <h5>1. Diferencias entre pretérito perfeito e imperfeito</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-02-01')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-02-01" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Diferencias entre pretérito perfeito e imperfeito del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>2. Uso del pretérito mais-que-perfeito (simples y compuesto)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-02-02')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-02-02" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Uso del pretérito mais-que-perfeito (simples y compuesto) del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>3. Verbos modales: poder, dever, querer, precisar de</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-02-03')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-02-03" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Verbos modales: poder, dever, querer, precisar de, del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>4. Verbos con cambio vocálico (dormir → durmo, pedir → peço)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-02-04')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-02-04" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Verbos con cambio vocálico (dormir → durmo, pedir → peço) del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>5. Futuro inmediato con "ir" + infinitivo (vou viajar)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-02-05')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-02-05" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Futuro inmediato con "ir" + infinitivo (vou viajar) del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>6. Futuro del presente (viajarei, comerei, abrirei)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-02-06')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-02-06" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Futuro del presente (viajarei, comerei, abrirei) del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>7. Uso de por vs. para</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-02-07')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-02-07" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Uso de por vs. para del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>8. Uso de desde, há, faz... que para expresar tiempo</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-02-08')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-02-08" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Uso de desde, há, faz... que para expresar tiempo del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>9. Pronombres complemento directo e indirecto (me, te, lhe, nos, lhes)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-02-09')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-02-09" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Pronombres complemento directo e indirecto (me, te, lhe, nos, lhes) del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>10. Uso del pronombre "se" para impersonalidad (Vende-se casa)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-02-10')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-02-10" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Uso del pronombre "se" para impersonalidad (Vende-se casa) del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>11. Verbos pronominales y reflexivos en pasado (eu me levantei)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-02-11')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-02-11" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Verbos pronominales y reflexivos en pasado (eu me levantei) del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>12. Construcciones con "acabar de" + infinitivo (acabei de chegar)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-02-12')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-02-12" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Construcciones con "acabar de" + infinitivo (acabei de chegar) del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>13. Expresiones de cantidad: demais, bastante, pouco</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-02-13')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-02-13" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Expresiones de cantidad: demais, bastante, pouco del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>14. Comparativos y superlativos (mais do que, menos do que, o mais bonito)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-02-14')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-02-14" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Comparativos y superlativos (mais do que, menos do que, o mais bonito) del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>15. Uso del condicional simple (gostaria de, poderia, deveria)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-02-15')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-02-15" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Uso del condicional simple (gostaria de, poderia, deveria) del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>16. Introducción al subjuntivo presente (Espero que você venha)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-02-16')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-02-16" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Introducción al subjuntivo presente (Espero que você venha) del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>17. Conectores más complejos (por isso, além disso, embora)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-02-17')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-02-17" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Conectores más complejos (por isso, além disso, embora) del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>18. Uso de "já" y "ainda" en diferentes tiempos verbales</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-02-18')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-02-18" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Uso de "já" y "ainda" en diferentes tiempos verbales del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>19. Expresiones idiomáticas básicas</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-02-19')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-02-19" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Expresiones idiomáticas básicas del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <button class="btn btn-light border" type="button" data-bs-toggle="collapse" data-bs-target="#contenido02"
-                aria-expanded="false" aria-controls="contenido02">
+            <br><br>
+            <button class="btn btn-light border" type="button" 
+            data-bs-toggle="collapse" data-bs-target="#contenido25"
+                aria-expanded="false" aria-controls="contenido25">
                 <i class="fa-solid fa-chevron-up"></i>
             </button>
             <br>
-        </div>
-    </div>
-
-    <!-- B1 -->
-    <div class="container mt-2">
-        <!-- B1 -->
-        <button class="btn btn-success w-100" type="button" data-bs-toggle="collapse" data-bs-target="#contenido03"
-            aria-expanded="false" aria-controls="contenido03">
-            B1
-        </button>
-
-        <div class="collapse bg-light border p-4 mt-1" id="contenido03">
-            <h3>Capacidad para mantener conversaciones sobre temas comunes y expresar opiniones.</h3>
-            <br>
-            <h5>1. Diferencias entre pretérito perfeito, imperfeito y mais-que-perfeito</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-03-01')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-03-01" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Diferencias entre pretérito perfeito, imperfeito y mais-que-perfeito del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>2. Usos avanzados del futuro do presente (viajarei, comerei)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-03-02')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-03-02" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Usos avanzados del futuro do presente (viajarei, comerei) del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>3. Futuro del pretérito (viajaria, comeria, abriria)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-03-03')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-03-03" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Futuro del pretérito (viajaria, comeria, abriria) del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>4. Uso avanzado del pretérito mais-que-perfeito composto (tinha feito, tinha ido)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-03-04')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-03-04" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Uso avanzado del pretérito mais-que-perfeito composto (tinha feito, tinha ido) del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>5. Introducción al subjuntivo presente y pasado</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-03-05')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-03-05" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Introducción al subjuntivo presente y pasado del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>6. Uso de "se" + subjuntivo para hipótesis (Se eu tivesse dinheiro, viajaria)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-03-06')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-03-06" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Uso de "se" + subjuntivo para hipótesis (Se eu tivesse dinheiro, viajaria) del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>7. Oraciones condicionales: reales, posibles e irreales</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-03-07')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-03-07" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Oraciones condicionales: reales, posibles e irreales del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>8. Verbos y expresiones con subjuntivo (Espero que, Tomara que, Duvido que)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-03-08')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-03-08" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Verbos y expresiones con subjuntivo (Espero que, Tomara que, Duvido que) del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>9. Diferencias entre "por que", "porque", "porquê" y "por quê"</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-03-09')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-03-09" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Diferencias entre "por que", "porque", "porquê" y "por quê" del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>10. Uso de pronomes oblíquos átonos e tônicos (me, te, lhe, nos, lhes / mim, ti, ele, nós, eles)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-03-10')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-03-10" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Uso de pronomes oblíquos átonos e tônicos (me, te, lhe, nos, lhes / mim, ti, ele, nós, eles) del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>11. Construcciones pasivas (Foi feito por mim / Se vende casa)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-03-11')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-03-11" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Construcciones pasivas (Foi feito por mim / Se vende casa) del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>12. Voz activa vs. voz pasiva (Eles construíram a casa / A casa foi construída por eles)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-03-12')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-03-12" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Voz activa vs. voz pasiva (Eles construíram a casa / A casa foi construída por eles) del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>13. Conectores más avanzados (apesar de, entretanto, contudo, portanto)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-03-13')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-03-13" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Conectores más avanzados (apesar de, entretanto, contudo, portanto)"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>14. Expresión de opiniones y argumentación (Na minha opinião, Acho que, Creio que)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-03-14')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-03-14" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Expresión de opiniones y argumentación (Na minha opinião, Acho que, Creio que) del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>15. Estilo indirecto (Ele disse que ia viajar)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-03-15')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-03-15" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Estilo indirecto (Ele disse que ia viajar) del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>16. Uso de gerundio y participio en frases complejas (Estou estudando, Tenho feito)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-03-16')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-03-16" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Uso de gerundio y participio en frases complejas (Estou estudando, Tenho feito) del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>17. Formación y uso del imperativo afirmativo y negativo (Fale! / Não fale!)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-03-17')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-03-17" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Formación y uso del imperativo afirmativo y negativo (Fale! / Não fale!) del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>18. Expresiones idiomáticas más comunes</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-03-18')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-03-18" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Expresiones idiomáticas más comunes B1 del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>19. Diferencias entre el portugués formal e informal</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-03-19')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-03-19" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Diferencias entre el portugués formal e informal del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <button class="btn btn-light border" type="button" data-bs-toggle="collapse" data-bs-target="#contenido03"
-                aria-expanded="false" aria-controls="contenido03">
-                <i class="fa-solid fa-chevron-up"></i>
-            </button>
-            <br>
-        </div>
-
-    </div>
-
-    <!-- B2 -->
-    <div class="container mt-2">
-        <!-- B2 -->
-        <button class="btn btn-success w-100" type="button" data-bs-toggle="collapse" data-bs-target="#contenido04"
-            aria-expanded="false" aria-controls="contenido04">
-            B2
-        </button>
-
-        <div class="collapse bg-light border p-4 mt-1" id="contenido04">
-            <h3>Mayor fluidez, comprensión de textos más complejos y comunicación efectiva en diversas situaciones.</h3>
-            <br>
-            <h5>1. Uso avanzado del pretérito mais-que-perfeito simples e composto (falara, tinha falado)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-04-01')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-04-01" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Uso avanzado del pretérito mais-que-perfeito simples e composto (falara, tinha falado) del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>2. Futuro do presente vs. futuro do pretérito (diferencias y matices)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-04-02')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-04-02" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Futuro do presente vs. futuro do pretérito (diferencias y matices) del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>3. Oraciones condicionales complejas (hipotéticas, irreales, imposibles)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-04-03')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-04-03" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Oraciones condicionales complejas (hipotéticas, irreales, imposibles) del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>4. Subjuntivo en todos sus tiempos (presente, passado, futuro)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-04-04')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-04-04" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Subjuntivo en todos sus tiempos (presente, passado, futuro) del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>5. Uso de "se" + subjuntivo en oraciones condicionales avanzadas</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-04-05')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-04-05" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Uso de "se" + subjuntivo en oraciones condicionales avanzadas del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>6. Diferencias entre "haver" y "ter" en tiempos compuestos</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-04-06')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-04-06" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Diferencias entre "haver" y "ter" en tiempos compuestos del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>7. Expresión de probabilidad con dever, poder, haver de</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-04-07')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-04-07" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Expresión de probabilidad con dever, poder, haver de del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>8. Verbos con preposiciones fijas (lembrar-se de, gostar de, acostumar-se a)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-04-08')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-04-08" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Verbos con preposiciones fijas (lembrar-se de, gostar de, acostumar-se a) del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>9. Construcciones impersonales con "há", "faz", "trata-se de"</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-04-09')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-04-09" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Construcciones impersonales con "há", "faz", "trata-se de" del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>10. Estilo indirecto avanzado (Ele disse que faria, Ela perguntou se poderíamos ajudar)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-04-10')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-04-10" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Estilo indirecto avanzado (Ele disse que faria, Ela perguntou se poderíamos ajudar) del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>11. Voz pasiva con verbos pronominales (Diz-se que, Sabe-se que)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-04-11')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-04-11" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Voz pasiva con verbos pronominales (Diz-se que, Sabe-se que) del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>12. Concordancia verbal y nominal en oraciones complejas</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-04-12')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-04-12" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Concordancia verbal y nominal en oraciones complejas del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>13. Uso avanzado de pronombres de objeto directo e indirecto (mo, to, lho, no-lo)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-04-13')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-04-13" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Uso avanzado de pronombres de objeto directo e indirecto (mo, to, lho, no-lo) del portugues"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>14. Discursos argumentativos y conectores avanzados (contudo, não obstante, além disso)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-04-14')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-04-14" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Discursos argumentativos y conectores avanzados (contudo, não obstante, além disso) del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>15. Uso del gerundio y participio en estructuras más complejas</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-04-15')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-04-15" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Uso del gerundio y participio en estructuras más complejas del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>16. Construcciones reducidas con infinitivo personal (Para eu fazer, Para nós entendermos)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-04-16')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-04-16" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Construcciones reducidas con infinitivo personal (Para eu fazer, Para nós entendermos) del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>17. Uso de "mesmo" y "próprio" con diferentes significados</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-04-17')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-04-17" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Uso de "mesmo" y "próprio" con diferentes significados del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>18. Expresiones idiomáticas y coloquiales más avanzadas</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-04-18')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-04-18" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Expresiones idiomáticas y coloquiales más avanzadas B2 del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>19. Diferencias entre el portugués formal, académico y coloquial</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-04-19')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-04-19" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Diferencias entre el portugués formal, académico y coloquial del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <button class="btn btn-light border" type="button" data-bs-toggle="collapse" data-bs-target="#contenido04"
-                aria-expanded="false" aria-controls="contenido04">
-                <i class="fa-solid fa-chevron-up"></i>
-            </button>
-                <br>
-        </div>
-    </div>
-
-    <!-- C1 -->
-    <div class="container mt-2">
-        <!-- C1 -->
-        <button class="btn btn-success w-100" type="button" data-bs-toggle="collapse" data-bs-target="#contenido05"
-            aria-expanded="false" aria-controls="contenido05">
-            C1
-        </button>
-
-        <div class="collapse bg-light border p-4 mt-1" id="contenido05">
-            <h3>Expresión clara y estructurada en casi cualquier contexto.</h3>
-            <br>
-            <h5>1. Uso avanzado de todos los tiempos verbales en indicativo y subjuntivo</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-05-01')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-05-01" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Uso avanzado de todos los tiempos verbales en indicativo y subjuntivo del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>2. Expresión de duda, suposición e hipótesis con dever, poder, haver de, ser capaz de</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-05-02')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-05-02" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Expresión de duda, suposición e hipótesis con dever, poder, haver de, ser capaz de, del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>3. Oraciones subordinadas sustantivas, adjetivas y adverbiales complejas</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-05-03')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-05-03" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Oraciones subordinadas sustantivas, adjetivas y adverbiales complejas del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>4. Uso de orações reduzidas con infinitivo, gerundio y participio</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-05-04')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-05-04" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Uso de orações reduzidas con infinitivo, gerundio y participio del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>5. Diferencias sutiles entre tiempos verbales (tinha feito vs. teria feito)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-05-05')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-05-05" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Diferencias sutiles entre tiempos verbales (tinha feito vs. teria feito) del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>6. Uso de locuções verbais (deveria ter feito, poderia ter falado)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-05-06')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-05-06" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Uso de locuções verbais (deveria ter feito, poderia ter falado) del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>7. Perífrasis verbales con matices de obligación, posibilidad y certeza</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-05-07')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-05-07" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Perífrasis verbales con matices de obligación, posibilidad y certeza, del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>8. Concordancia verbal y nominal en oraciones largas y complejas</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-05-08')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-05-08" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Concordancia verbal y nominal en oraciones largas y complejas del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>9. Estilo indirecto en narraciones y discursos formales</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-05-09')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-05-09" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Estilo indirecto en narraciones y discursos formales del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>10. Modos de enfatizar en portugués (é que, mesmo, próprio, até)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-05-10')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-05-10" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Modos de enfatizar en portugués (é que, mesmo, próprio, até) del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>11. Construcciones causales, concesivas y consecutivas avanzadas</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-05-11')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-05-11" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Construcciones causales, concesivas y consecutivas avanzadas del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>12. Uso de preposiciones con verbos y sustantivos abstractos</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-05-12')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-05-12" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Uso de preposiciones con verbos y sustantivos abstractos del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>13. Conectores argumentativos avanzados (ainda que, por conseguinte, não obstante)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-05-13')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-05-13" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Conectores argumentativos avanzados (ainda que, por conseguinte, não obstante) del portugues"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>14. Subjuntivo en expresiones formales y académicas (É importante que se diga...)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-05-14')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-05-14" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Subjuntivo en expresiones formales y académicas (É importante que se diga...) del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>15. Verbos pronominales con matices sutiles de significado (lembrar-se vs. lembrar)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-05-15')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-05-15" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Verbos pronominales con matices sutiles de significado (lembrar-se vs. lembrar) del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>16. Variaciones sintácticas y estructuras estilísticas en textos formales</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-05-16')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-05-16" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Variaciones sintácticas y estructuras estilísticas en textos formales del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Pideme realizar un texto formal de 50 palabras, para practicar Variaciones sintácticas y estructuras estilísticas.
-Al finalizar, dame sugerencias para mejorar y dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>17. Uso de metáforas y figuras retóricas en la comunicación oral y escrita</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-05-17')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-05-17" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Uso de metáforas y figuras retóricas en la comunicación oral y escrita del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Pideme realizar un texto formal de 50 palabras, para practicar Uso de metáforas y figuras retóricas.
-Al finalizar, dame sugerencias para mejorar y dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>18. Expresiones idiomáticas y frases hechas con usos avanzados</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-05-18')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-05-18" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Expresiones idiomáticas y frases hechas con usos avanzados C1 del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>19. Diferencias entre portugués europeo y brasileño en registros cultos</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-05-19')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-05-19" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Diferencias entre portugués europeo y brasileño en registros cultos"
-            </textarea>
-            <br>
-            <button class="btn btn-light border" type="button" data-bs-toggle="collapse" data-bs-target="#contenido05"
-                aria-expanded="false" aria-controls="contenido05">
-                <i class="fa-solid fa-chevron-up"></i>
-            </button>
-                <br>
-        </div>
-
-
-
-    </div>
-
-    <!-- C2 -->
-    <div class="container mt-2">
-        <!-- C2 -->
-        <button class="btn btn-success w-100" type="button" data-bs-toggle="collapse" data-bs-target="#contenido06"
-            aria-expanded="false" aria-controls="contenido06">
-            C2
-        </button>
-
-        <div class="collapse bg-light border p-4 mt-1" id="contenido06">
-            <h3>Dominio del idioma casi a nivel nativo, con comprensión y producción precisas en cualquier situación.
-            </h3>
-            <br>
-            <h5>1. Diferencias sutiles entre tiempos compuestos (ter feito vs. tinha feito vs. teria feito)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-06-01')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-06-01" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Diferencias sutiles entre tiempos compuestos (ter feito vs. tinha feito vs. teria feito) del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Realízame 4 preguntas en portugués para practicar ese tipo de oraciones, una por una, para yo responder.
-Después de cada respuesta, corrige mis errores, dame sugerencias para mejorar, también pregúntame si tengo dudas y espera a que yo responda si o no.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>2. Uso de formas verbales raras o literarias (houvera, for, vier, couber)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-06-02')">
-                <i class="fas fa-copy"></i> Explicacion
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-06-02" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Uso de formas verbales raras o literarias (houvera, for, vier, couber) del portugués"
-            </textarea>
-            <br>
-            <h5>3. Subjuntivo en estructuras altamente formales y literarias</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-06-03')">
-                <i class="fas fa-copy"></i> Explicacion
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-06-03" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Subjuntivo en estructuras altamente formales y literarias del portugués"
-            </textarea>
-            <br>
-            <h5>4. Concordancia verbal y nominal en estructuras complejas y estilísticas</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-06-04')">
-                <i class="fas fa-copy"></i> Explicacion
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-06-04" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Concordancia verbal y nominal en estructuras complejas y estilísticas del portugués"
-            </textarea>
-            <br>
-            <h5>5. Uso avanzado de oraciones subordinadas con múltiples niveles de subordinación</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-06-05')">
-                <i class="fas fa-copy"></i> Explicacion
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-06-05" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Uso avanzado de oraciones subordinadas con múltiples niveles de subordinación del portugués"
-            </textarea>
-            <br>
-            <h5>6. Oraciones pasivas avanzadas y estilización del discurso</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-06-06')">
-                <i class="fas fa-copy"></i> Explicacion
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-06-06" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Oraciones pasivas avanzadas y estilización del discurso del portugués"
-            </textarea>
-            <br>
-            <h5>7. Estilo indirecto con matices sutiles de significado y tiempo</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-06-07')">
-                <i class="fas fa-copy"></i> Explicacion
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-06-07" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Estilo indirecto con matices sutiles de significado y tiempo del portugués"
-            </textarea>
-            <br>
-            <h5>8. Uso de partículas enfáticas y modalizadoras (pois, cá, lá, já, bem, é que)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-06-08')">
-                <i class="fas fa-copy"></i> Explicacion
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-06-08" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Uso de partículas enfáticas y modalizadoras (pois, cá, lá, já, bem, é que) del portugués"
-            </textarea>
-            <br>
-            <h5>9. Figuras retóricas y estilísticas en la argumentación oral y escrita</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-06-09')">
-                <i class="fas fa-copy"></i> Explicacion
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-06-09" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Figuras retóricas y estilísticas en la argumentación oral y escrita del portugués"
-            </textarea>
-            <br>
-            <h5>10. Construcciones idiomáticas y refranes en diversos registros</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-06-10')">
-                <i class="fas fa-copy"></i> Explicacion
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-06-10" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Construcciones idiomáticas y refranes en diversos registros del portugués"
-            </textarea>
-            <br>
-            <h5>11. Análisis y producción de textos formales, académicos y literarios</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-06-11')">
-                <i class="fas fa-copy"></i> Explicacion
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-06-11" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Análisis y producción de textos formales, académicos y literarios del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Pideme realizar un texto de 100 palabras en portugués para practicar.
-Después corrige mis errores, y dame sugerencias para mejorar.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>12. Diferencias dialectales y registros del portugués (regionalismos, formalidad, jerga)</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-06-12')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-06-12" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Diferencias dialectales y registros del portugués (regionalismos, formalidad, jerga) del portugués"
-            </textarea>
-            <br>
-            <h5>13. Uso de conectores y marcadores discursivos en un nivel altamente sofisticado</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-06-13')">
-                <i class="fas fa-copy"></i> Explicacion
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-06-13" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Uso de conectores y marcadores discursivos en un nivel altamente sofisticado del portugues"
-            </textarea>
-            <br>
-            <h5>14. Interpretación y uso de ironía, sarcasmo y eufemismos</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-06-14')">
-                <i class="fas fa-copy"></i> Explicacion
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-06-14" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Interpretación y uso de ironía, sarcasmo y eufemismos del portugués"
-            </textarea>
-            <br>
-            <h5>15. Construcción de argumentos complejos en debates y discursos académicos</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-06-15')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-06-15" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Construcción de argumentos complejos en debates y discursos académicos del portugués"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Pideme realizar un texto de 100 palabras en portugués para practicar.
-Después corrige mis errores, y dame sugerencias para mejorar.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <h5>16. Traducción y adaptación de textos entre idiomas con precisión estilística</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-06-16')">
-                <i class="fas fa-copy"></i> Explicacion
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-06-16" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Traducción y adaptación de textos entre idiomas con precisión estilística del portugués"
-            </textarea>
-            <br>
-            <h5>17. Flexibilidad en el uso del lenguaje en distintos ámbitos profesionales y culturales</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-06-17')">
-                <i class="fas fa-copy"></i> Explicacion
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-06-17" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Flexibilidad en el uso del lenguaje en distintos ámbitos profesionales y culturales del portugués"
-            </textarea>
-            <br>
-            <h5>18. Comprensión y análisis de textos altamente especializados y literarios</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-06-18')">
-                <i class="fas fa-copy"></i> Explicacion
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-06-18" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Comprensión y análisis de textos altamente especializados y literarios del portugués"
-Recomienda libros en portugues.
-            </textarea>
-            <br>
-            <h5>19. Creación de discursos escritos y orales con variaciones de tono, estilo y registro</h5>
-            <!-- Icono de copiar -->
-            <button class="btn btn-light border" onclick="copyText('copy-text-06-19')">
-                <i class="fas fa-copy"></i> Explicacion y practica
-            </button>
-            <br>
-            <!-- Texto que se va a copiar -->
-            <textarea id="copy-text-06-19" style="position: absolute; top: -9999px;">
-Las retroalimentaciones y los comentarios en español por favor.
-Explica "Creación de discursos escritos y orales con variaciones de tono, estilo y registro"
-Luego pregúntame si tengo alguna duda antes de pasar a la practica.
-Pideme realizar un texto de 100 palabras en portugués para practicar.
-Después corrige mis errores, y dame sugerencias para mejorar.
-Al finalizar, dime si ya estoy preparado para avanzar al siguiente tema o si debo estudiar y practicar mas este tema.
-            </textarea>
-            <br>
-            <button class="btn btn-light border" type="button" data-bs-toggle="collapse" data-bs-target="#contenido06"
-                aria-expanded="false" aria-controls="contenido06">
-                <i class="fa-solid fa-chevron-up"></i>
-            </button>
-                <br>
         </div>
     </div>
 
