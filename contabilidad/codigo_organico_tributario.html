@@ -1,73 +1,72 @@
 <!doctype html>
-<html lang="es">
-
+<html lang="es" data-bs-theme="light">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ruta de Aprendizaje - Código Orgánico Tributario (COT) 2020</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ruta de Aprendizaje - Código Orgánico Tributario (COT) 2020</title>
+  
+  <!-- Bootstrap 5.3 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+        crossorigin="anonymous">
+  
+  <style>
+    body { 
+      
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+    .accordion-button {
+      font-weight: 600;
+    }
+    .accordion-button:not(.collapsed) {
+      color: #0d6efd;
+    }
+    .card {
+      border-radius: 0.5rem;
+    }
+    h1 { color: #0d6efd; }
+    .lead { max-width: 800px; margin: 0 auto; }
 
-    <!-- Bootstrap 5.3 CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
-    <style>
-        body {
-             background-color: #f8f9fa;
-            font-family: system-ui, -apple-system, sans-serif;
-        }
-
-        .accordion-button {
-            font-weight: 600;
-            color: #0d6efd;
-        }
-
-        .accordion-button:not(.collapsed) {
-            background-color: #e7f1ff;
-            color: #0d6efd;
-        }
-
-        .card {
-            border: 1px solid #dee2e6;
-            border-radius: 0.375rem;
-        }
-
-        h1 {
-            color: #0d6efd;
-        }
-
-        .lead {
-            max-width: 800px;
-            margin: 0 auto;
-            color: rgb(0, 2, 24);
-        }
-
-        [data-bs-theme="dark"] {
-  background-color: #121212;
-  color: #e0e0e0;
-}
-
-[data-bs-theme="dark"] .accordion-button {
-  background-color: #1e1e1e;
-  color: #ffffff;
-}
-
-[data-bs-theme="dark"] .accordion-button:not(.collapsed) {
-  background-color: #2c2c2c;
-}
-
-[data-bs-theme="dark"] .card {
-  background-color: #1e1e1e;
-  border-color: #333;
-}
-
-[data-bs-theme="dark"] .alert-primary {
-  --bs-alert-bg: #0d47a1;
-  --bs-alert-color: white;
-}
-
-    </style>
+    /* Modo oscuro - fondo realmente oscuro */
+    [data-bs-theme="dark"] {
+      background-color: #121212;
+      color: #e0e0e0;
+    }
+    [data-bs-theme="dark"] .accordion-item {
+      background-color: #1e1e1e;
+      border-color: #333;
+    }
+    [data-bs-theme="dark"] .accordion-button {
+      background-color: #1e1e1e;
+      color: #ffffff;
+    }
+    [data-bs-theme="dark"] .accordion-button:not(.collapsed) {
+      background-color: #2c2c2c;
+      color: #bbdefb;
+    }
+    [data-bs-theme="dark"] .accordion-body {
+      background-color: #1e1e1e;
+    }
+    [data-bs-theme="dark"] .card {
+      background-color: #1e1e1e;
+      border-color: #444;
+      color: #e0e0e0;
+    }
+    [data-bs-theme="dark"] .card-header {
+      background-color: #252525;
+      color: #ffffff;
+    }
+    [data-bs-theme="dark"] .alert-primary {
+      --bs-alert-bg: #0d47a1;
+      --bs-alert-border-color: #0b3d8c;
+      --bs-alert-color: white;
+    }
+    [data-bs-theme="dark"] .text-muted {
+      color: #a0a0a0 !important;
+    }
+  </style>
 </head>
-
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
@@ -82,124 +81,111 @@
             </div>
         </div>
     </nav>
+    
+  <div class="container my-5">
 
-    <div class="container my-5">
-        <!-- Botón toggle dark mode (puedes ponerlo donde quieras, ej. arriba a la derecha) -->
-<div class="d-flex justify-content-end mb-3">
-  <div class="form-check form-switch">
-    <input class="form-check-input" type="checkbox" id="darkModeToggle" />
-    <label class="form-check-label" for="darkModeToggle">Modo Oscuro</label>
-  </div>
-</div>
+    <!-- Toggle Dark Mode -->
+    <div class="d-flex justify-content-end mb-4">
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" id="darkModeToggle" />
+        <label class="form-check-label" for="darkModeToggle">Modo Oscuro</label>
+      </div>
+    </div>
 
-        <h1 class="text-start mb-4">Ruta de Aprendizaje<br>Código Orgánico Tributario (COT) 2020</h1>
+    <h1 class="text-start mb-4">Ruta de Aprendizaje<br>Código Orgánico Tributario (COT) 2020</h1>
+    
+    <div class="alert alert-primary text-start mb-5" role="alert">
+      <strong>Autoestudio gratuito</strong> — Dedica 1–2 semanas por tema. Lee los artículos del COT 2020, toma notas y responde las preguntas de análisis por escrito.
+    </div>
 
-        <div class="alert alert-primary text-start mb-5" role="alert">
-            <strong>Autoestudio gratuito</strong> — Dedica 1–2 semanas por tema. Lee los artículos del COT 2020, toma
-            notas y responde las preguntas de análisis por escrito.
+    <p class="lead text-start mb-5">
+      Método de mejora continua:<br>
+      1. Escribe tu respuesta inicial.<br>
+      2. Consulta / simula con otra IA o contador con experiencia.<br>
+      3. Evalúa errores y fortalezas.<br>
+      4. Refina tu respuesta.<br>
+      5. Resume brevemente qué aprendiste.
+    </p>
+
+    <div class="accordion shadow-sm" id="accordionRutaCOT">
+
+      <!-- Tema 1 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#tema1" aria-expanded="true">
+            Tema 1: Disposiciones Preliminares y Fuentes del Derecho Tributario (Art. 1–3, 7)
+          </button>
+        </h2>
+        <div id="tema1" class="accordion-collapse collapse show">
+          <div class="accordion-body">
+            <p>Ámbito de aplicación (tributos nacionales, aduaneros, supletorios), fuentes del derecho tributario y principio de reserva legal.</p>
+            <div class="card mt-3">
+              <div class="card-header bg-secondary fw-bold">Preguntas de análisis</div>
+              <div class="card-body">
+                <ol class="mb-0">
+                  <li>¿Cómo se aplica el principio de reserva legal en la creación de un nuevo impuesto? Analiza un ejemplo hipotético donde una norma reglamentaria intenta modificar una alícuota.</li>
+                  <li>¿Cuáles son las fuentes primarias del derecho tributario y cómo jerarquizan en un conflicto entre una ley nacional y un tratado internacional?</li>
+                  <li>Evalúa si el COT se aplica a un tributo municipal y justifica con artículos específicos.</li>
+                </ol>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
 
-        <p class="lead text-start mb-5">
-            Método de mejora continua (en cada autoevaluación o respuesta que generes):<br>
-            <br>
-            1. Escribe tu respuesta inicial.<br>
-            2. Consulta / simula discusión con otra IA o contador con experiencia.<br>
-            3. Evalúa errores y fortalezas.<br>
-            4. Refina tu respuesta.<br>
-            5. Resume brevemente qué aprendiste.
-        </p>
-
-        <div class="accordion shadow-sm" id="accordionRutaCOT">
-
-            <!-- Tema 1 -->
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#tema1"
-                        aria-expanded="true">
-                        Tema 1: Disposiciones Preliminares y Fuentes del Derecho Tributario (Art. 1–3, 7)
-                    </button>
-                </h2>
-                <div id="tema1" class="accordion-collapse collapse show">
-                    <div class="accordion-body">
-                        <p>Ámbito de aplicación (tributos nacionales, aduaneros, supletorios), fuentes del derecho
-                            tributario y principio de reserva legal.</p>
-                        <div class="card mt-3">
-                            <div class="card-header bg-light fw-bold">Preguntas de análisis</div>
-                            <div class="card-body">
-                                <ol class="mb-0">
-                                    <li>¿Cómo se aplica el principio de reserva legal en la creación de un nuevo
-                                        impuesto? Analiza un ejemplo hipotético donde una norma reglamentaria intenta
-                                        modificar una alícuota.</li>
-                                    <li>¿Cuáles son las fuentes primarias del derecho tributario y cómo jerarquizan en
-                                        un conflicto entre una ley nacional y un tratado internacional?</li>
-                                    <li>Evalúa si el COT se aplica a un tributo municipal y justifica con artículos
-                                        específicos.</li>
-                                </ol>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <!-- Tema 2 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tema2">
+            Tema 2: Interpretación y Vigencia de Normas Tributarias (Art. 4–9, 11)
+          </button>
+        </h2>
+        <div id="tema2" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <p>Interpretación restrictiva de beneficios, analogía, vigencia (no retroactividad), ámbito espacial y doble tributación.</p>
+            <div class="card mt-3">
+              <div class="card-header bg-secondary fw-bold">Preguntas de análisis</div>
+              <div class="card-body">
+                <ol class="mb-0">
+                  <li>¿En qué casos se permite la analogía en el derecho tributario? Analiza un vacío legal hipotético sobre exenciones.</li>
+                  <li>Explica la vigencia de una nueva ley tributaria sin fecha especificada y cómo afecta actos pasados.</li>
+                  <li>¿Cómo evita el COT la doble tributación en un caso de ingresos extraterritoriales? Propón un escenario con un contribuyente no residente.</li>
+                </ol>
+              </div>
             </div>
+          </div>
+        </div>
+      </div>
 
-            <!-- Tema 2 -->
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#tema2">
-                        Tema 2: Interpretación y Vigencia de Normas Tributarias (Art. 4–9, 11)
-                    </button>
-                </h2>
-                <div id="tema2" class="accordion-collapse collapse">
-                    <div class="accordion-body">
-                        <p>Interpretación restrictiva de beneficios, analogía, vigencia (no retroactividad), ámbito
-                            espacial y doble tributación.</p>
-                        <div class="card mt-3">
-                            <div class="card-header bg-light fw-bold">Preguntas de análisis</div>
-                            <div class="card-body">
-                                <ol class="mb-0">
-                                    <li>¿En qué casos se permite la analogía en el derecho tributario? Analiza un vacío
-                                        legal hipotético sobre exenciones.</li>
-                                    <li>Explica la vigencia de una nueva ley tributaria sin fecha especificada y cómo
-                                        afecta actos pasados.</li>
-                                    <li>¿Cómo evita el COT la doble tributación en un caso de ingresos
-                                        extraterritoriales? Propón un escenario con un contribuyente no residente.</li>
-                                </ol>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <!-- Los temas 3 al 20 siguen el mismo patrón. Para no repetir todo aquí (el mensaje sería muy largo), 
+           copia los bloques de accordion-item de la versión anterior que te funcionó y pégalos aquí 
+           justo antes del cierre de <div class="accordion shadow-sm" id="accordionRutaCOT"> -->
+
+      <!-- Ejemplo Tema 3 (agrega los demás de la misma forma) -->
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tema3">
+            Tema 3: Sujeto Activo y Pasivo en la Obligación Tributaria (Art. 13–21, 25–29)
+          </button>
+        </h2>
+        <div id="tema3" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <p>Nacimiento de la obligación, sujeto activo, contribuyentes, responsables solidarios, agentes de retención.</p>
+            <div class="card mt-3">
+              <div class="card-header bg-secondary fw-bold">Preguntas de análisis</div>
+              <div class="card-body">
+                <ol class="mb-0">
+                  <li>Diferencia entre contribuyente y responsable solidario, con un ejemplo de retención en pagos a terceros.</li>
+                  <li>¿Cómo se transmite la obligación tributaria en caso de muerte o fusión de empresas? Analiza implicaciones.</li>
+                  <li>Evalúa la solidaridad en un caso donde un tutor no paga impuestos de un menor.</li>
+                </ol>
+              </div>
             </div>
+          </div>
+        </div>
+      </div>
 
-            <!-- Tema 3 -->
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#tema3">
-                        Tema 3: Sujeto Activo y Pasivo en la Obligación Tributaria (Art. 13–21, 25–29)
-                    </button>
-                </h2>
-                <div id="tema3" class="accordion-collapse collapse">
-                    <div class="accordion-body">
-                        <p>Nacimiento de la obligación, sujeto activo, contribuyentes, responsables solidarios, agentes
-                            de retención.</p>
-                        <div class="card mt-3">
-                            <div class="card-header bg-light fw-bold">Preguntas de análisis</div>
-                            <div class="card-body">
-                                <ol class="mb-0">
-                                    <li>Diferencia entre contribuyente y responsable solidario, con un ejemplo de
-                                        retención en pagos a terceros.</li>
-                                    <li>¿Cómo se transmite la obligación tributaria en caso de muerte o fusión de
-                                        empresas? Analiza implicaciones.</li>
-                                    <li>Evalúa la solidaridad en un caso donde un tutor no paga impuestos de un menor.
-                                    </li>
-                                </ol>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Tema 4 -->
+<!-- Tema 4 -->
             <div class="accordion-item">
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -212,7 +198,7 @@
                         <p>Tipos de domicilio (físico, electrónico, especial), personas naturales/jurídicas/no
                             residentes, obligación de notificar cambios.</p>
                         <div class="card mt-3">
-                            <div class="card-header bg-light fw-bold">Preguntas de análisis</div>
+                            <div class="card-header bg-secondary fw-bold">Preguntas de análisis</div>
                             <div class="card-body">
                                 <ol class="mb-0">
                                     <li>¿Qué ocurre si un contribuyente no informa un cambio de domicilio? Analiza
@@ -240,7 +226,7 @@
                     <div class="accordion-body">
                         <p>Definición, momento de ocurrencia, calificación, situaciones condicionales.</p>
                         <div class="card mt-3">
-                            <div class="card-header bg-light fw-bold">Preguntas de análisis</div>
+                            <div class="card-header bg-secondary fw-bold">Preguntas de análisis</div>
                             <div class="card-body">
                                 <ol class="mb-0">
                                     <li>¿Cuándo nace el hecho imponible en una venta condicional? Analiza un contrato
@@ -268,7 +254,7 @@
                     <div class="accordion-body">
                         <p>Formas, lugares, plazos, pagos a cuenta, prórrogas, fraccionamientos.</p>
                         <div class="card mt-3">
-                            <div class="card-header bg-light fw-bold">Preguntas de análisis</div>
+                            <div class="card-header bg-secondary fw-bold">Preguntas de análisis</div>
                             <div class="card-body">
                                 <ol class="mb-0">
                                     <li>¿Cómo se imputa un pago parcial a deudas tributarias? Analiza prioridades
@@ -295,7 +281,7 @@
                     <div class="accordion-body">
                         <p>Compensación de créditos, confusión, remisión, incobrabilidad.</p>
                         <div class="card mt-3">
-                            <div class="card-header bg-light fw-bold">Preguntas de análisis</div>
+                            <div class="card-header bg-secondary fw-bold">Preguntas de análisis</div>
                             <div class="card-body">
                                 <ol class="mb-0">
                                     <li>¿En qué condiciones se permite la compensación de deudas tributarias? Analiza un
@@ -323,7 +309,7 @@
                     <div class="accordion-body">
                         <p>Plazos (6–10 años), agravantes, interrupción, suspensión, efectos.</p>
                         <div class="card mt-3">
-                            <div class="card-header bg-light fw-bold">Preguntas de análisis</div>
+                            <div class="card-header bg-secondary fw-bold">Preguntas de análisis</div>
                             <div class="card-body">
                                 <ol class="mb-0">
                                     <li>¿Cómo se interrumpe la prescripción y qué reinicia el plazo? Analiza un acto
@@ -351,7 +337,7 @@
                     <div class="accordion-body">
                         <p>Cálculo de intereses (tasa activa), privilegios fiscales, garantías (fianzas).</p>
                         <div class="card mt-3">
-                            <div class="card-header bg-light fw-bold">Preguntas de análisis</div>
+                            <div class="card-header bg-secondary fw-bold">Preguntas de análisis</div>
                             <div class="card-body">
                                 <ol class="mb-0">
                                     <li>Calcula intereses moratorios en un retraso de pago hipotético usando la tasa
@@ -378,7 +364,7 @@
                     <div class="accordion-body">
                         <p>Definiciones, procedimientos, duración, derogación.</p>
                         <div class="card mt-3">
-                            <div class="card-header bg-light fw-bold">Preguntas de análisis</div>
+                            <div class="card-header bg-secondary fw-bold">Preguntas de análisis</div>
                             <div class="card-body">
                                 <ol class="mb-0">
                                     <li>Diferencia exención y exoneración, con ejemplos de cada una.</li>
@@ -406,7 +392,7 @@
                         <p>Clasificación (formales, materiales, penales), extinción, responsabilidad,
                             atenuantes/agravantes.</p>
                         <div class="card mt-3">
-                            <div class="card-header bg-light fw-bold">Preguntas de análisis</div>
+                            <div class="card-header bg-secondary fw-bold">Preguntas de análisis</div>
                             <div class="card-body">
                                 <ol class="mb-0">
                                     <li>Clasifica un ilícito hipotético (ej. omisión de declaración) y justifica.</li>
@@ -433,7 +419,7 @@
                     <div class="accordion-body">
                         <p>Sanciones por incumplimientos en inscripciones, facturas, libros, declaraciones, etc.</p>
                         <div class="card mt-3">
-                            <div class="card-header bg-light fw-bold">Preguntas de análisis</div>
+                            <div class="card-header bg-secondary fw-bold">Preguntas de análisis</div>
                             <div class="card-body">
                                 <ol class="mb-0">
                                     <li>¿Qué sanción aplica por no emitir facturas? Analiza clausura vs. multa.</li>
@@ -459,7 +445,7 @@
                     <div class="accordion-body">
                         <p>Retrasos/omisiones en pagos, retenciones, devoluciones indebidas.</p>
                         <div class="card mt-3">
-                            <div class="card-header bg-light fw-bold">Preguntas de análisis</div>
+                            <div class="card-header bg-secondary fw-bold">Preguntas de análisis</div>
                             <div class="card-body">
                                 <ol class="mb-0">
                                     <li>Calcula una multa por retraso en pago y explica el porcentaje diario.</li>
@@ -485,7 +471,7 @@
                     <div class="accordion-body">
                         <p>Defraudación, insolvencia fraudulenta, instigación, penas (prisión, inhabilitación).</p>
                         <div class="card mt-3">
-                            <div class="card-header bg-light fw-bold">Preguntas de análisis</div>
+                            <div class="card-header bg-secondary fw-bold">Preguntas de análisis</div>
                             <div class="card-body">
                                 <ol class="mb-0">
                                     <li>Lista indicios de defraudación y aplica a un caso de contabilidad doble.</li>
@@ -511,7 +497,7 @@
                     <div class="accordion-body">
                         <p>Atribuciones (fiscalización, liquidación), deberes, Resguardo Nacional.</p>
                         <div class="card mt-3">
-                            <div class="card-header bg-light fw-bold">Preguntas de análisis</div>
+                            <div class="card-header bg-secondary fw-bold">Preguntas de análisis</div>
                             <div class="card-body">
                                 <ol class="mb-0">
                                     <li>¿Cuáles son las facultades clave en fiscalización y cómo se aplican en
@@ -538,7 +524,7 @@
                     <div class="accordion-body">
                         <p>Verificación, acta de reparo, sumario, resolución culminatoria.</p>
                         <div class="card mt-3">
-                            <div class="card-header bg-light fw-bold">Preguntas de análisis</div>
+                            <div class="card-header bg-secondary fw-bold">Preguntas de análisis</div>
                             <div class="card-body">
                                 <ol class="mb-0">
                                     <li>Describe el proceso de fiscalización desde providencia hasta resolución.</li>
@@ -563,7 +549,7 @@
                     <div class="accordion-body">
                         <p>Revisión de oficio, recurso jerárquico, revisión por pruebas nuevas.</p>
                         <div class="card mt-3">
-                            <div class="card-header bg-light fw-bold">Preguntas de análisis</div>
+                            <div class="card-header bg-secondary fw-bold">Preguntas de análisis</div>
                             <div class="card-body">
                                 <ol class="mb-0">
                                     <li>¿Cuándo procede el recurso jerárquico y sus plazos? Analiza suspensión de
@@ -589,7 +575,7 @@
                     <div class="accordion-body">
                         <p>Interposición, admisión, lapso probatorio, ejecución de sentencia.</p>
                         <div class="card mt-3">
-                            <div class="card-header bg-light fw-bold">Preguntas de análisis</div>
+                            <div class="card-header bg-secondary fw-bold">Preguntas de análisis</div>
                             <div class="card-body">
                                 <ol class="mb-0">
                                     <li>¿Cuáles son los requisitos y plazos para interponer? Analiza inadmisibilidad.
@@ -615,7 +601,7 @@
                     <div class="accordion-body">
                         <p>Amparo por demoras, transacción homologada, arbitraje (laudo, nulidad).</p>
                         <div class="card mt-3">
-                            <div class="card-header bg-light fw-bold">Preguntas de análisis</div>
+                            <div class="card-header bg-secondary fw-bold">Preguntas de análisis</div>
                             <div class="card-body">
                                 <ol class="mb-0">
                                     <li>¿Cuándo procede el amparo tributario? Analiza requisitos de perjuicio.</li>
@@ -640,7 +626,7 @@
                     <div class="accordion-body">
                         <p>Aplicación transitoria, derogaciones, vigencia, destino de ingresos.</p>
                         <div class="card mt-3">
-                            <div class="card-header bg-light fw-bold">Preguntas de análisis</div>
+                            <div class="card-header bg-secondary fw-bold">Preguntas de análisis</div>
                             <div class="card-body">
                                 <ol class="mb-0">
                                     <li>¿Cómo se aplican sanciones a ilícitos previos a la vigencia del COT 2020?</li>
@@ -653,50 +639,41 @@
                 </div>
             </div>
 
-        </div> <!-- fin accordion -->
+    </div> <!-- fin accordion -->
 
-        <div class="text-center mt-5 pt-4 border-top">
-            <p class="text-muted">¡Mucho éxito en tu estudio del COT 2020!<br>
-                Recuerda: responder las preguntas de análisis por escrito es clave para fijar el conocimiento.</p>
-        </div>
+    <div class="text-center mt-5 pt-4 border-top">
+      <p class="text-muted">¡Mucho éxito en tu estudio del COT 2020!<br>Responde las preguntas por escrito para fijar el conocimiento.</p>
     </div>
+  </div>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+          integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+          crossorigin="anonymous"></script>
 
-<script>
-  // Función para cambiar tema
-  function setTheme(theme) {
-    document.documentElement.setAttribute('data-bs-theme', theme);
-    localStorage.setItem('theme', theme);
-    
-    // Actualiza el checkbox
-    const toggle = document.getElementById('darkModeToggle');
-    toggle.checked = (theme === 'dark');
-  }
+  <!-- Script Dark Mode -->
+  <script>
+    function setTheme(theme) {
+      document.documentElement.setAttribute('data-bs-theme', theme);
+      localStorage.setItem('theme', theme);
+      document.getElementById('darkModeToggle').checked = (theme === 'dark');
+    }
 
-  // Cargar tema guardado o preferencia del sistema
-  const savedTheme = localStorage.getItem('theme');
-  if (savedTheme) {
-    setTheme(savedTheme);
-  } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-    setTheme('dark');
-  } else {
-    setTheme('light');
-  }
-
-  // Toggle al cambiar el switch
-  document.getElementById('darkModeToggle').addEventListener('change', function () {
-    if (this.checked) {
+    // Cargar preferencia guardada o del sistema
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+      setTheme(savedTheme);
+    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
       setTheme('dark');
     } else {
       setTheme('light');
     }
-  });
-</script>
+
+    // Evento del toggle
+    document.getElementById('darkModeToggle').addEventListener('change', function () {
+      setTheme(this.checked ? 'dark' : 'light');
+    });
+  </script>
 
 </body>
-
 </html>
