@@ -40,6 +40,31 @@
             margin: 0 auto;
             color: rgb(0, 2, 24);
         }
+
+        [data-bs-theme="dark"] {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+[data-bs-theme="dark"] .accordion-button {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+[data-bs-theme="dark"] .accordion-button:not(.collapsed) {
+  background-color: #2c2c2c;
+}
+
+[data-bs-theme="dark"] .card {
+  background-color: #1e1e1e;
+  border-color: #333;
+}
+
+[data-bs-theme="dark"] .alert-primary {
+  --bs-alert-bg: #0d47a1;
+  --bs-alert-color: white;
+}
+
     </style>
 </head>
 
@@ -59,6 +84,14 @@
     </nav>
 
     <div class="container my-5">
+        <!-- Botón toggle dark mode (puedes ponerlo donde quieras, ej. arriba a la derecha) -->
+<div class="d-flex justify-content-end mb-3">
+  <div class="form-check form-switch">
+    <input class="form-check-input" type="checkbox" id="darkModeToggle" />
+    <label class="form-check-label" for="darkModeToggle">Modo Oscuro</label>
+  </div>
+</div>
+
         <h1 class="text-start mb-4">Ruta de Aprendizaje<br>Código Orgánico Tributario (COT) 2020</h1>
 
         <div class="alert alert-primary text-start mb-5" role="alert">
@@ -632,6 +665,38 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+
+<script>
+  // Función para cambiar tema
+  function setTheme(theme) {
+    document.documentElement.setAttribute('data-bs-theme', theme);
+    localStorage.setItem('theme', theme);
+    
+    // Actualiza el checkbox
+    const toggle = document.getElementById('darkModeToggle');
+    toggle.checked = (theme === 'dark');
+  }
+
+  // Cargar tema guardado o preferencia del sistema
+  const savedTheme = localStorage.getItem('theme');
+  if (savedTheme) {
+    setTheme(savedTheme);
+  } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    setTheme('dark');
+  } else {
+    setTheme('light');
+  }
+
+  // Toggle al cambiar el switch
+  document.getElementById('darkModeToggle').addEventListener('change', function () {
+    if (this.checked) {
+      setTheme('dark');
+    } else {
+      setTheme('light');
+    }
+  });
+</script>
+
 </body>
 
 </html>
